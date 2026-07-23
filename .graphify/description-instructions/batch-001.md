@@ -1,4 +1,4 @@
-# Node Description Batch 2 of 4
+# Node Description Batch 2 of 5
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -24,15 +24,30 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "commit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa": "f4675ed docs(project): create Master Execution Plan & Epic Roadmap (EPIC-001 th…" | kind=Commit | source=git | neighbors=[3efb8ed docs(product): create master Pr…, main, 7699c20 chore(epic-001): initialize wor…]
+- "commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7": "fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engin…" | kind=Commit | source=git | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, main, ee66e84 docs(gemini): update GEMINI.md …]
+- "hotels_page": "page.tsx" | kind=code-symbol | source=apps/admin/app/hotels/page.tsx:L1 | neighbors=[51fd7f6 feat(hotel): implement Hotel & …, HotelItem, HotelsPage()]
+- "src_auth_provider_authprovider_rotatesession": ".rotateSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L29 | neighbors=[AuthProvider, .createSession(), .revokeSession()]
+- "src_hotel_resolver_hotelresolver_resolvecontext": ".resolveContext()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L90 | neighbors=[HotelResolver, .getBusinessDate(), .getById()]
+- "src_tenant_resolver_memoryorganizationrepository_getbydomain": ".getByDomain()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L58 | neighbors=[MemoryOrganizationRepository, .getById(), .resolveContext()]
+- "src_tenant_resolver_memoryorganizationrepository_getbyid": ".getById()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L47 | neighbors=[MemoryOrganizationRepository, .getByDomain(), .resolveContext()]
+- "admin_next_config": "next.config.ts" | kind=code-symbol | source=apps/admin/next.config.ts:L1 | neighbors=[nextConfig, b56cdfd feat(scaffolding): Phase 1 mono…]
+- "app_layout": "layout.tsx" | kind=code-symbol | source=apps/website/app/layout.tsx:L1 | neighbors=[RootLayout(), b56cdfd feat(scaffolding): Phase 1 mono…]
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a": "889e7c0 Initial commit" | kind=Commit | source=git | neighbors=[main, e5bbd3c docs: add comprehensive master …]
 - "login_page": "page.tsx" | kind=code-symbol | source=apps/admin/app/login/page.tsx:L1 | neighbors=[93b95cf feat(auth): complete authentica…, LoginPage()]
 - "routes_auth_authrouter": "authRouter" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L9 | neighbors=[auth.ts, index.ts]
+- "routes_hotels_hotelrouter": "hotelRouter" | kind=code-symbol | source=apps/api/src/routes/hotels.ts:L6 | neighbors=[hotels.ts, index.ts]
+- "schema_organization_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L4 | neighbors=[hotel.ts, organization.ts]
 - "src_auth_provider_authprovider_createsession": ".createSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L7 | neighbors=[AuthProvider, .rotateSession()]
 - "src_auth_provider_authprovider_revokesession": ".revokeSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L25 | neighbors=[AuthProvider, .rotateSession()]
 - "src_auth_test": "auth.test.ts" | kind=code-symbol | source=packages/auth/src/auth.test.ts:L1 | neighbors=[d899e94 feat(auth): implement authentic…, index.ts]
 - "src_crypto_bytestohex": "bytesToHex()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L35 | neighbors=[crypto.ts, hashPassword()]
 - "src_crypto_hextobytes": "hexToBytes()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L41 | neighbors=[crypto.ts, hashPassword()]
 - "src_crypto_verifypassword": "verifyPassword()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L30 | neighbors=[crypto.ts, hashPassword()]
+- "src_hotel_resolver_hotelrepository": "HotelRepository" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L3 | neighbors=[hotel-resolver.ts, MemoryHotelRepository]
+- "src_hotel_resolver_memoryhotelrepository_getbusinessdate": ".getBusinessDate()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L82 | neighbors=[.resolveContext(), MemoryHotelRepository]
+- "src_hotel_resolver_memoryhotelrepository_getbyid": ".getById()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L46 | neighbors=[.resolveContext(), MemoryHotelRepository]
+- "src_hotel_test": "hotel.test.ts" | kind=code-symbol | source=packages/auth/src/hotel.test.ts:L1 | neighbors=[51fd7f6 feat(hotel): implement Hotel & …, index.ts]
 - "src_tenant_resolver_memoryorganizationrepository_getfeatures": ".getFeatures()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L68 | neighbors=[MemoryOrganizationRepository, .resolveContext()]
 - "src_tenant_resolver_memoryorganizationrepository_getsettings": ".getSettings()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L64 | neighbors=[MemoryOrganizationRepository, .resolveContext()]
 - "src_tenant_resolver_organizationrepository": "OrganizationRepository" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L3 | neighbors=[tenant-resolver.ts, MemoryOrganizationRepository]
@@ -45,25 +60,10 @@ one-sentence description — no prose, no markdown fences.
 - "app_page_gueststorefrontpage": "GuestStorefrontPage()" | kind=code-symbol | source=apps/website/app/page.tsx:L1 | neighbors=[page.tsx]
 - "db_drizzle_config": "drizzle.config.ts" | kind=code-symbol | source=packages/db/drizzle.config.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…]
 - "eslint_config": "eslint.config.js" | kind=code-symbol | source=eslint.config.js:L1 | neighbors=[5373706 chore: initialize monorepo work…]
+- "hotels_page_hotelitem": "HotelItem" | kind=code-symbol | source=apps/admin/app/hotels/page.tsx:L5 | neighbors=[page.tsx]
+- "hotels_page_hotelspage": "HotelsPage()" | kind=code-symbol | source=apps/admin/app/hotels/page.tsx:L15 | neighbors=[page.tsx]
 - "login_page_loginpage": "LoginPage()" | kind=code-symbol | source=apps/admin/app/login/page.tsx:L5 | neighbors=[page.tsx]
 - "middlewares_auth_middleware_authcontextvariables": "AuthContextVariables" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L9 | neighbors=[auth.middleware.ts]
-- "middlewares_auth_middleware_memorystore": "memoryStore" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L7 | neighbors=[auth.middleware.ts]
-- "middlewares_auth_middleware_requireauthmiddleware": "requireAuthMiddleware()" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L15 | neighbors=[auth.middleware.ts]
-- "middlewares_tenant_middleware_orgrepo": "orgRepo" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L5 | neighbors=[tenant.middleware.ts]
-- "middlewares_tenant_middleware_tenantcontextvariables": "TenantContextVariables" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L8 | neighbors=[tenant.middleware.ts]
-- "middlewares_tenant_middleware_tenantmiddleware": "tenantMiddleware()" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L12 | neighbors=[tenant.middleware.ts]
-- "middlewares_tenant_middleware_tenantresolver": "tenantResolver" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L6 | neighbors=[tenant.middleware.ts]
-- "routes_auth_getmockhash": "getMockHash()" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L15 | neighbors=[auth.ts]
-- "routes_auth_globalmemorystore": "globalMemoryStore" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L7 | neighbors=[auth.ts]
-- "schema_index_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/index.ts:L3 | neighbors=[index.ts]
-- "schema_organization_organizationdomains": "organizationDomains" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L39 | neighbors=[organization.ts]
-- "schema_organization_organizationdomainsrelations": "organizationDomainsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L93 | neighbors=[organization.ts]
-- "schema_organization_organizationfeatures": "organizationFeatures" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L57 | neighbors=[organization.ts]
-- "schema_organization_organizationfeaturesrelations": "organizationFeaturesRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L100 | neighbors=[organization.ts]
-- "schema_organization_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L4 | neighbors=[organization.ts]
-- "schema_organization_organizationsettings": "organizationSettings" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L20 | neighbors=[organization.ts]
-- "schema_organization_organizationsettingsrelations": "organizationSettingsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L86 | neighbors=[organization.ts]
-- "schema_organization_organizationsrelations": "organizationsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L77 | neighbors=[organization.ts]
 
 ## Instructions
 

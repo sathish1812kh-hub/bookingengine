@@ -6,6 +6,43 @@ export interface BaseEntity {
   updatedAt: string;
 }
 
+export interface UserProfile {
+  id: string;
+  userId: string;
+  firstName: string;
+  lastName: string;
+  displayName: string;
+  avatar?: string | null;
+  timezone: string;
+  language: string;
+  phone?: string | null;
+}
+
+export interface UserPreferences {
+  id: string;
+  userId: string;
+  theme: string;
+  notificationsEnabled: boolean;
+}
+
+export interface User {
+  id: string;
+  organizationId: string;
+  employeeCode?: string | null;
+  username: string;
+  primaryEmail: string;
+  passwordHash: string;
+  status: 'active' | 'suspended' | 'archived' | 'locked';
+  failedLoginAttempts: number;
+  lastLoginAt?: string | null;
+  passwordChangedAt?: string | null;
+  createdAt: string;
+  updatedAt: string;
+  deletedAt?: string | null;
+  profile?: UserProfile;
+  preferences?: UserPreferences;
+}
+
 export interface AuthUser {
   id: string;
   email: string;

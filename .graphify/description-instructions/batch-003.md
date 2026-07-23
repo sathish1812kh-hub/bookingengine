@@ -1,4 +1,4 @@
-# Node Description Batch 4 of 4
+# Node Description Batch 4 of 5
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,15 +17,46 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "src_index_app": "app" | kind=code-symbol | source=apps/api/src/index.ts:L12 | neighbors=[index.ts]
+- "src_index_authresult": "AuthResult" | kind=code-symbol | source=packages/types/src/index.ts:L69 | neighbors=[index.ts]
+- "src_index_authuser": "AuthUser" | kind=code-symbol | source=packages/types/src/index.ts:L46 | neighbors=[index.ts]
+- "src_index_authusercontext": "AuthUserContext" | kind=code-symbol | source=packages/auth/src/index.ts:L8 | neighbors=[index.ts]
+- "src_index_baseentity": "BaseEntity" | kind=code-symbol | source=packages/types/src/index.ts:L3 | neighbors=[index.ts]
+- "src_index_cn": "cn()" | kind=code-symbol | source=packages/ui/src/index.ts:L4 | neighbors=[index.ts]
+- "src_index_createintegrationstatus": "createIntegrationStatus()" | kind=code-symbol | source=packages/integrations/src/index.ts:L11 | neighbors=[index.ts]
+- "src_index_env": "Env" | kind=code-symbol | source=apps/api/src/index.ts:L7 | neighbors=[index.ts]
+- "src_index_environment": "Environment" | kind=code-symbol | source=packages/types/src/index.ts:L1 | neighbors=[index.ts]
+- "src_index_formatcurrency": "formatCurrency()" | kind=code-symbol | source=packages/utils/src/index.ts:L1 | neighbors=[index.ts]
+- "src_index_formatdateiso": "formatDateISO()" | kind=code-symbol | source=packages/utils/src/index.ts:L8 | neighbors=[index.ts]
+- "src_index_healthcheckresponse": "HealthCheckResponse" | kind=code-symbol | source=packages/shared/src/index.ts:L17 | neighbors=[index.ts]
+- "src_index_healthcheckresponseschema": "HealthCheckResponseSchema" | kind=code-symbol | source=packages/shared/src/index.ts:L3 | neighbors=[index.ts]
+- "src_index_hotel": "Hotel" | kind=code-symbol | source=packages/types/src/index.ts:L115 | neighbors=[index.ts]
+- "src_index_hotelbusinessdate": "HotelBusinessDate" | kind=code-symbol | source=packages/types/src/index.ts:L134 | neighbors=[index.ts]
+- "src_index_hotelcontext": "HotelContext" | kind=code-symbol | source=packages/types/src/index.ts:L141 | neighbors=[index.ts]
+- "src_index_isauthorized": "isAuthorized()" | kind=code-symbol | source=packages/auth/src/index.ts:L15 | neighbors=[index.ts]
+- "src_index_logincredentials": "LoginCredentials" | kind=code-symbol | source=packages/types/src/index.ts:L64 | neighbors=[index.ts]
+- "src_index_loginrequest": "LoginRequest" | kind=code-symbol | source=packages/shared/src/index.ts:L15 | neighbors=[index.ts]
+- "src_index_loginrequestschema": "LoginRequestSchema" | kind=code-symbol | source=packages/shared/src/index.ts:L10 | neighbors=[index.ts]
+- "src_index_organization": "Organization" | kind=code-symbol | source=packages/types/src/index.ts:L75 | neighbors=[index.ts]
+- "src_index_organizationdomain": "OrganizationDomain" | kind=code-symbol | source=packages/types/src/index.ts:L93 | neighbors=[index.ts]
+- "src_index_organizationfeature": "OrganizationFeature" | kind=code-symbol | source=packages/types/src/index.ts:L101 | neighbors=[index.ts]
+- "src_index_organizationsettings": "OrganizationSettings" | kind=code-symbol | source=packages/types/src/index.ts:L84 | neighbors=[index.ts]
+- "src_index_session": "Session" | kind=code-symbol | source=packages/types/src/index.ts:L55 | neighbors=[index.ts]
+- "src_index_stayflexiclientconfig": "StayflexiClientConfig" | kind=code-symbol | source=packages/integrations/src/index.ts:L1 | neighbors=[index.ts]
+- "src_index_systemstatus": "SystemStatus" | kind=code-symbol | source=packages/shared/src/index.ts:L35 | neighbors=[index.ts]
+- "src_index_tenantcontext": "TenantContext" | kind=code-symbol | source=packages/types/src/index.ts:L109 | neighbors=[index.ts]
+- "src_index_ttlockclientconfig": "TTLockClientConfig" | kind=code-symbol | source=packages/integrations/src/index.ts:L6 | neighbors=[index.ts]
+- "src_index_user": "User" | kind=code-symbol | source=packages/types/src/index.ts:L28 | neighbors=[index.ts]
+- "src_index_userpreferences": "UserPreferences" | kind=code-symbol | source=packages/types/src/index.ts:L21 | neighbors=[index.ts]
+- "src_index_userprofile": "UserProfile" | kind=code-symbol | source=packages/types/src/index.ts:L9 | neighbors=[index.ts]
+- "src_session_store_kvnamespacelike": "KVNamespaceLike" | kind=code-symbol | source=packages/auth/src/session-store.ts:L34 | neighbors=[session-store.ts]
+- "src_session_store_kvsessionstore_constructor": ".constructor()" | kind=code-symbol | source=packages/auth/src/session-store.ts:L41 | neighbors=[KVSessionStore]
+- "src_session_store_kvsessionstore_delete": ".delete()" | kind=code-symbol | source=packages/auth/src/session-store.ts:L59 | neighbors=[KVSessionStore]
+- "src_session_store_kvsessionstore_get": ".get()" | kind=code-symbol | source=packages/auth/src/session-store.ts:L43 | neighbors=[KVSessionStore]
+- "src_session_store_kvsessionstore_set": ".set()" | kind=code-symbol | source=packages/auth/src/session-store.ts:L53 | neighbors=[KVSessionStore]
 - "src_session_store_memorysessionstore_delete": ".delete()" | kind=code-symbol | source=packages/auth/src/session-store.ts:L29 | neighbors=[MemorySessionStore]
 - "src_session_store_memorysessionstore_get": ".get()" | kind=code-symbol | source=packages/auth/src/session-store.ts:L12 | neighbors=[MemorySessionStore]
 - "src_session_store_memorysessionstore_set": ".set()" | kind=code-symbol | source=packages/auth/src/session-store.ts:L22 | neighbors=[MemorySessionStore]
-- "src_tenant_resolver_memoryorganizationrepository_constructor": ".constructor()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L17 | neighbors=[MemoryOrganizationRepository]
-- "src_tenant_resolver_memoryorganizationrepository_getbyslug": ".getBySlug()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L51 | neighbors=[MemoryOrganizationRepository]
-- "src_tenant_resolver_tenantresolver_constructor": ".constructor()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L74 | neighbors=[TenantResolver]
-- "src_tenant_resolver_tenantresolver_validatecrosstenantaccess": ".validateCrossTenantAccess()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L111 | neighbors=[TenantResolver]
-- "website_next_config_nextconfig": "nextConfig" | kind=code-symbol | source=apps/website/next.config.ts:L3 | neighbors=[next.config.ts]
-- "website_next_env_d": "next-env.d.ts" | kind=code-symbol | source=apps/website/next-env.d.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…]
 
 ## Instructions
 

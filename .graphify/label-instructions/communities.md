@@ -12,17 +12,18 @@ language. Do not normalize every name to one common language.
 
 ## Communities
 
-Community 0: index.ts, ApiEnvelopeSchema(, app, AuthResult, AuthUser, AuthUserContext, BaseEntity, cn(, createIntegrationStatus(, Env, Environment, formatCurrency( [lang=en]
-Community 1: 67e5e40 feat(tenant): implement Organization & Multi-Tenant , tenant.middleware.ts, orgRepo, TenantContextVariables, tenantMiddleware(, tenantResolver, index.ts, organizations, organization.ts, organizationDomains, organizationDomainsRelations, organizationFeatures [lang=en]
-Community 2: KVSessionStore, MemorySessionStore, SessionStore, d899e94 feat(auth): implement authentication and session KV , auth-provider.ts, auth.test.ts, session-store.ts, KVNamespaceLike, .constructor(, .delete(, .get(, .set( [lang=en]
-Community 3: next.config.ts, nextConfig, next-env.d.ts, layout.tsx, RootLayout(, page.tsx, AdminDashboardPage(, GuestStorefrontPage(, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, drizzle.config.ts [lang=en]
-Community 4: main, 3efb8ed docs(product): create master Product Blueprint speci, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (1, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Arch, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specific, e9fba19 chore(epic-001): workspace foundation, ee66e84 docs(gemini): update GEMINI.md with active MCP inven, f4675ed docs(project): create Master Execution Plan & Epic R, fdb0a76 feat(graphify): fully integrate official Graphify kn [lang=pt]
-Community 5: MemoryOrganizationRepository, TenantResolver, tenant-resolver.ts, .constructor(, .getByDomain(, .getById(, .getBySlug(, .getFeatures(, .getSettings(, OrganizationRepository, .resolveContext(, .validateCrossTenantAccess( [lang=en]
-Community 6: 93b95cf feat(auth): complete authentication foundation with , page.tsx, LoginPage(, auth.middleware.ts, AuthContextVariables, memoryStore, requireAuthMiddleware( [lang=en]
-Community 7: AuthProvider, .constructor(, .createSession(, .revokeSession(, .rotateSession(, .validateSession( [lang=en]
-Community 8: bytesToHex(, hashPassword(, verifyPassword(, crypto.ts, hexToBytes( [lang=en]
-Community 9: authRouter, auth.ts, getMockHash(, globalMemoryStore [lang=en]
-Community 10: env.ts, EnvConfig, EnvSchema, loadEnv( [lang=en]
+Community 0: authRouter, auth.ts, getMockHash(, globalMemoryStore, hotels.ts, hotelRepo, hotelRouter, index.ts, ApiEnvelopeSchema(, app, AuthResult, AuthUser [lang=en]
+Community 1: 67e5e40 feat(tenant): implement Organization & Multi-Tenant , hotel.ts, hotelAddresses, hotelBusinessDates, hotelContacts, hotels, hotelSettings, hotelsRelations, index.ts, organizations, organization.ts, organizationDomains [lang=en]
+Community 2: main, 3efb8ed docs(product): create master Product Blueprint speci, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (1, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Arch, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specific, e9fba19 chore(epic-001): workspace foundation, ee66e84 docs(gemini): update GEMINI.md with active MCP inven, f4675ed docs(project): create Master Execution Plan & Epic R, fdb0a76 feat(graphify): fully integrate official Graphify kn [lang=pt]
+Community 3: KVSessionStore, MemorySessionStore, SessionStore, d899e94 feat(auth): implement authentication and session KV , auth-provider.ts, auth.test.ts, session-store.ts, KVNamespaceLike, .constructor(, .delete(, .get(, .set( [lang=en]
+Community 4: next.config.ts, nextConfig, next-env.d.ts, layout.tsx, RootLayout(, page.tsx, AdminDashboardPage(, GuestStorefrontPage(, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, drizzle.config.ts [lang=en]
+Community 5: HotelResolver, MemoryHotelRepository, hotel-resolver.ts, HotelRepository, .constructor(, .resolveContext(, .validateCrossHotelAccess(, .create(, .getBusinessDate(, .getById(, .getByOrganization(, .update( [lang=en]
+Community 6: MemoryOrganizationRepository, TenantResolver, tenant-resolver.ts, .constructor(, .getByDomain(, .getById(, .getBySlug(, .getFeatures(, .getSettings(, OrganizationRepository, .resolveContext(, .validateCrossTenantAccess( [lang=en]
+Community 7: 51fd7f6 feat(hotel): implement Hotel & Multi-Property Manage, page.tsx, HotelItem, HotelsPage(, hotel.middleware.ts, HotelContextVariables, hotelRepo, hotelResolver, requireHotelContext(, resolveHotelContext(, hotel.test.ts [lang=en]
+Community 8: 93b95cf feat(auth): complete authentication foundation with , page.tsx, LoginPage(, auth.middleware.ts, AuthContextVariables, memoryStore, requireAuthMiddleware( [lang=en]
+Community 9: AuthProvider, .constructor(, .createSession(, .revokeSession(, .rotateSession(, .validateSession( [lang=en]
+Community 10: tenant.middleware.ts, orgRepo, TenantContextVariables, tenantMiddleware(, tenantResolver [lang=en]
+Community 11: hashPassword(, crypto.ts, bytesToHex(, hexToBytes(, verifyPassword( [lang=en]
 
 ## Instructions
 
