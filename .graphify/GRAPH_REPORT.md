@@ -1,24 +1,25 @@
 # Graph Report - .  (2026-07-23)
 
 ## Corpus Check
-- Corpus is ~48,895 words - fits in a single context window. You may not need a graph.
+- 64 files · ~50,333 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 43 nodes · 52 edges · 7 communities detected
+- 44 nodes · 54 edges · 7 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 23 · MODIFIES: 12 · ON_BRANCH: 8 · PARENT_OF: 7 · imports_from: 2
+- Edge kinds: contains: 23 · MODIFIES: 12 · ON_BRANCH: 9 · PARENT_OF: 8 · imports_from: 2
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 63 · Candidates: 134
+- Included files: 64 · Candidates: 135
 - Excluded: 2 untracked · 267616 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `8264a67`
+- Built from Git commit: `3efb8ed`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `nextConfig` - 1 edges
@@ -43,8 +44,8 @@ Cohesion: 0.13
 Nodes (10): app, AuthUserContext, BaseEntity, Env, Environment, HealthCheckResponse, HealthCheckResponseSchema, StayflexiClientConfig (+2 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.36
-Nodes (8): main, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync, fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline
+Cohesion: 0.33
+Nodes (9): main, 3efb8ed docs(product): create master Product Blueprint specification and freeze architecture, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync (+1 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.50

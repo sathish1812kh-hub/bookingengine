@@ -5,8 +5,8 @@
     "provenance": {
       "source_owner": "git",
       "source_id": "repo:github.com/sathish1812kh-hub/bookingengine",
-      "observed_at": "2026-07-23T15:30:10.756Z",
-      "source_hash": "8264a679ed9fe114ae4b9e377ff6a3019212c08d",
+      "observed_at": "2026-07-23T15:38:21.677Z",
+      "source_hash": "3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
       "adapter_version": "graphify-git/1"
     },
     "community_labels": {
@@ -20,9 +20,9 @@
       "7": "Community 7",
       "8": "Community 8"
     },
-    "built_from_commit": "8264a679ed9fe114ae4b9e377ff6a3019212c08d"
+    "built_from_commit": "3efb8ed7bacdd3f596ff99de282eb4a13c2a339f"
   },
-  "topology_signature": "n=43;e=52;admin_next_config,admin_next_config_nextconfig,admin_next_env_d,app_layout,app_layout_rootlayout,app_page,app_page_admindashboardpage,app_page_gueststorefrontpage,branch:repo:github.com/sathish1812kh-hub/bookingengine#main,commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72,commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402,commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d,commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a,commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f,commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7,commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc,commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7,db_drizzle_config,eslint_config,schema_index,schema_index_organizations,src_env,src_env_envconfig,src_env_envschema,src_env_loadenv,src_index,src_index_apienvelopeschema,src_index_app,src_index_authusercontext,src_index_baseentity,src_index_cn,src_index_createintegrationstatus,src_index_env,src_index_environment,src_index_healthcheckresponse,src_index_healthcheckresponseschema,src_index_isauthorized,src_index_stayflexiclientconfig,src_index_systemstatus,src_index_ttlockclientconfig,website_next_config,website_next_config_nextconfig,website_next_env_d|admin_next_config\tadmin_next_config_nextconfig\tcontains;admin_next_config\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;admin_next_env_d\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_layout\tapp_layout_rootlayout\tcontains;app_layout\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_page\tapp_page_admindashboardpage\tcontains;app_page\tapp_page_gueststorefrontpage\tcontains;app_page\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tON_BRANCH;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\teslint_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_env\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tdb_drizzle_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tschema_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_env_d\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;schema_index\tschema_index_organizations\tcontains;schema_index\tsrc_index\timports_from;src_env\tsrc_env_envconfig\tcontains;src_env\tsrc_env_envschema\tcontains;src_env\tsrc_env_loadenv\tcontains;src_env\tsrc_index\timports_from;src_index\tsrc_index_apienvelopeschema\tcontains;src_index\tsrc_index_app\tcontains;src_index\tsrc_index_authusercontext\tcontains;src_index\tsrc_index_baseentity\tcontains;src_index\tsrc_index_cn\tcontains;src_index\tsrc_index_createintegrationstatus\tcontains;src_index\tsrc_index_env\tcontains;src_index\tsrc_index_environment\tcontains;src_index\tsrc_index_healthcheckresponse\tcontains;src_index\tsrc_index_healthcheckresponseschema\tcontains;src_index\tsrc_index_isauthorized\tcontains;src_index\tsrc_index_stayflexiclientconfig\tcontains;src_index\tsrc_index_systemstatus\tcontains;src_index\tsrc_index_ttlockclientconfig\tcontains;website_next_config\twebsite_next_config_nextconfig\tcontains",
+  "topology_signature": "n=44;e=54;admin_next_config,admin_next_config_nextconfig,admin_next_env_d,app_layout,app_layout_rootlayout,app_page,app_page_admindashboardpage,app_page_gueststorefrontpage,branch:repo:github.com/sathish1812kh-hub/bookingengine#main,commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f,commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72,commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402,commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d,commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a,commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f,commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7,commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc,commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7,db_drizzle_config,eslint_config,schema_index,schema_index_organizations,src_env,src_env_envconfig,src_env_envschema,src_env_loadenv,src_index,src_index_apienvelopeschema,src_index_app,src_index_authusercontext,src_index_baseentity,src_index_cn,src_index_createintegrationstatus,src_index_env,src_index_environment,src_index_healthcheckresponse,src_index_healthcheckresponseschema,src_index_isauthorized,src_index_stayflexiclientconfig,src_index_systemstatus,src_index_ttlockclientconfig,website_next_config,website_next_config_nextconfig,website_next_env_d|admin_next_config\tadmin_next_config_nextconfig\tcontains;admin_next_config\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;admin_next_env_d\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_layout\tapp_layout_rootlayout\tcontains;app_layout\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_page\tapp_page_admindashboardpage\tcontains;app_page\tapp_page_gueststorefrontpage\tcontains;app_page\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tON_BRANCH;commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\teslint_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_env\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tdb_drizzle_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tschema_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_env_d\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;schema_index\tschema_index_organizations\tcontains;schema_index\tsrc_index\timports_from;src_env\tsrc_env_envconfig\tcontains;src_env\tsrc_env_envschema\tcontains;src_env\tsrc_env_loadenv\tcontains;src_env\tsrc_index\timports_from;src_index\tsrc_index_apienvelopeschema\tcontains;src_index\tsrc_index_app\tcontains;src_index\tsrc_index_authusercontext\tcontains;src_index\tsrc_index_baseentity\tcontains;src_index\tsrc_index_cn\tcontains;src_index\tsrc_index_createintegrationstatus\tcontains;src_index\tsrc_index_env\tcontains;src_index\tsrc_index_environment\tcontains;src_index\tsrc_index_healthcheckresponse\tcontains;src_index\tsrc_index_healthcheckresponseschema\tcontains;src_index\tsrc_index_isauthorized\tcontains;src_index\tsrc_index_stayflexiclientconfig\tcontains;src_index\tsrc_index_systemstatus\tcontains;src_index\tsrc_index_ttlockclientconfig\tcontains;website_next_config\twebsite_next_config_nextconfig\tcontains",
   "nodes": [
     {
       "id": "app_layout",
@@ -331,6 +331,24 @@
       "community_name": "Community 0"
     },
     {
+      "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
+      "label": "3efb8ed docs(product): create master Product Blueprint specification and freeze architecture",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "sha": "3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
+      "author": "sathish <sathish1812kh@gmail.com>",
+      "authoredAt": "2026-07-23T21:00:12+05:30",
+      "message_summary": "docs(product): create master Product Blueprint specification and freeze architecture",
+      "message_length": 84,
+      "parents": [
+        "8264a679ed9fe114ae4b9e377ff6a3019212c08d"
+      ],
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72",
       "label": "5373706 chore: initialize monorepo workspace",
       "file_type": "concept",
@@ -480,7 +498,7 @@
       "node_type": "Branch",
       "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
       "branch_name": "main",
-      "head_sha": "8264a679ed9fe114ae4b9e377ff6a3019212c08d",
+      "head_sha": "3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
       "community": 1,
       "community_name": "Community 1"
     }
@@ -532,6 +550,16 @@
       "weight": 1,
       "_src": "app_page",
       "_tgt": "app_page_gueststorefrontpage",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
+      "target": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
+      "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
       "confidence_score": 1
     },
     {
@@ -621,6 +649,16 @@
       "source_file": "git",
       "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d",
       "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d",
+      "target": "commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d",
+      "_tgt": "commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f",
       "confidence_score": 1
     },
     {
