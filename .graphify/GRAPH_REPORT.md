@@ -1,25 +1,25 @@
 # Graph Report - .  (2026-07-23)
 
 ## Corpus Check
-- 64 files · ~50,333 words
+- 65 files · ~51,501 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 44 nodes · 54 edges · 7 communities detected
+- 46 nodes · 58 edges · 7 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 23 · MODIFIES: 12 · ON_BRANCH: 9 · PARENT_OF: 8 · imports_from: 2
+- Edge kinds: contains: 23 · MODIFIES: 12 · ON_BRANCH: 11 · PARENT_OF: 10 · imports_from: 2
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 64 · Candidates: 135
-- Excluded: 2 untracked · 267616 ignored · 0 sensitive · 0 missing committed
+- Included files: 65 · Candidates: 137
+- Excluded: 3 untracked · 276276 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `3efb8ed`
+- Built from Git commit: `7699c20`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `nextConfig` - 1 edges
@@ -34,8 +34,12 @@
 10. `EnvConfig` - 1 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `5373706 chore: initialize monorepo workspace` --ON_BRANCH--> `main`  [EXTRACTED]
+  git → git  _Bridges community 2 → community 1_
 - `57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog` --PARENT_OF--> `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`  [EXTRACTED]
-  git → git  _Bridges community 1 → community 2_
+  git → git  _Bridges community 1 → community 3_
+- `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides` --PARENT_OF--> `fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline`  [EXTRACTED]
+  git → git  _Bridges community 3 → community 2_
 
 ## Communities
 
@@ -44,16 +48,16 @@ Cohesion: 0.13
 Nodes (10): app, AuthUserContext, BaseEntity, Env, Environment, HealthCheckResponse, HealthCheckResponseSchema, StayflexiClientConfig (+2 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.33
-Nodes (9): main, 3efb8ed docs(product): create master Product Blueprint specification and freeze architecture, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync (+1 more)
+Cohesion: 0.43
+Nodes (8): main, 3efb8ed docs(product): create master Product Blueprint specification and freeze architecture, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, f4675ed docs(project): create Master Execution Plan & Epic Roadmap (EPIC-001 through EPIC-016)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.50
-Nodes (1): b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides
+Cohesion: 0.25
+Nodes (5): 5373706 chore: initialize monorepo workspace, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync, fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline, EnvConfig, EnvSchema
 
 ### Community 3 - "Community 3"
 Cohesion: 0.50
-Nodes (2): EnvConfig, EnvSchema
+Nodes (1): b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides
 
 ### Community 5 - "Community 5"
 Cohesion: 1.00
@@ -70,9 +74,7 @@ Nodes (1): nextConfig
 ## Knowledge Gaps
 - **15 isolated node(s):** `nextConfig`, `Env`, `app`, `nextConfig`, `AuthUserContext` (+10 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 2`** (1 nodes): `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 3`** (2 nodes): `EnvConfig`, `EnvSchema`
+- **Thin community `Community 3`** (1 nodes): `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 5`** (1 nodes): `nextConfig`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.

@@ -13,9 +13,9 @@ language. Do not normalize every name to one common language.
 ## Communities
 
 Community 0: app, AuthUserContext, Env, StayflexiClientConfig, TTLockClientConfig, index.ts, ApiEnvelopeSchema(, BaseEntity, cn(, createIntegrationStatus(, Environment, HealthCheckResponse [lang=en]
-Community 1: main, 3efb8ed docs(product): create master Product Blueprint speci, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (1, 8264a67 docs(ux): add comprehensive UX & Access Control Arch, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specific, ee66e84 docs(gemini): update GEMINI.md with active MCP inven, fdb0a76 feat(graphify): fully integrate official Graphify kn, eslint.config.js [lang=pt]
-Community 2: next-env.d.ts, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, drizzle.config.ts [lang=en]
-Community 3: EnvConfig, EnvSchema, env.ts, loadEnv( [lang=en]
+Community 1: main, 3efb8ed docs(product): create master Product Blueprint speci, 57ba611 docs: add architecture review report, ADR package (1, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Arch, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specific, f4675ed docs(project): create Master Execution Plan & Epic R [lang=pt]
+Community 2: EnvConfig, EnvSchema, 5373706 chore: initialize monorepo workspace, ee66e84 docs(gemini): update GEMINI.md with active MCP inven, fdb0a76 feat(graphify): fully integrate official Graphify kn, eslint.config.js, env.ts, loadEnv( [lang=en]
+Community 3: next-env.d.ts, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, drizzle.config.ts [lang=en]
 Community 4: page.tsx, AdminDashboardPage(, GuestStorefrontPage( [lang=en]
 Community 5: nextConfig, next.config.ts [lang=en]
 Community 6: layout.tsx, RootLayout( [lang=en]
