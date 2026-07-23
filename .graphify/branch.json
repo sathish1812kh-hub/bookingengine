@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "branchName": "main",
+  "worktreePath": "C:\\bookingengine",
+  "upstream": "origin/main",
+  "mergeBase": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+  "firstSeenHead": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+  "lastSeenHead": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+  "lastAnalyzedHead": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+  "stale": false,
+  "staleReason": null,
+  "staleSince": null,
+  "lifecycleEvent": null,
+  "createdAt": "2026-07-23T14:53:44.825Z",
+  "updatedAt": "2026-07-23T14:53:44.825Z"
+}

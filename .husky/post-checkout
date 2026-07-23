@@ -1,0 +1,82 @@
+#!/bin/sh
+# graphify-checkout-hook-start
+# Marks graph state stale when switching branches and optionally rebuilds code-only graph.
+# Installed by: graphify hook install
+
+PREV_HEAD=$1
+NEW_HEAD=$2
+BRANCH_SWITCH=$3
+
+# Only run on branch switches, not file checkouts.
+if [ "$BRANCH_SWITCH" != "1" ]; then
+    exit 0
+fi
+
+
+# Shared graphify hook helpers. Hooks are advisory and must not block git.
+graphify_should_skip() {
+    GIT_DIR=$(git rev-parse --git-dir 2>/dev/null)
+    [ -z "$GIT_DIR" ] && return 1
+    [ -d "$GIT_DIR/rebase-merge" ] && return 0
+    [ -d "$GIT_DIR/rebase-apply" ] && return 0
+    [ -f "$GIT_DIR/MERGE_HEAD" ] && return 0
+    [ -f "$GIT_DIR/CHERRY_PICK_HEAD" ] && return 0
+    return 1
+}
+
+graphify_has_state() {
+    [ -f ".graphify/graph.json" ] || [ -f "graphify-out/graph.json" ] || [ -d ".graphify" ] || [ -d "graphify-out" ]
+}
+
+graphify_mark_stale() {
+    GRAPHIFY_STALE_REASON=${1:-hook}
+    mkdir -p ".graphify"
+    printf "1\n" > ".graphify/needs_update"
+    if graphify_detect_cmd; then
+        $GRAPHIFY_CMD hook-mark-stale "$GRAPHIFY_STALE_REASON" >/dev/null 2>&1 || true
+    fi
+}
+
+graphify_detect_cmd() {
+    if command -v graphify >/dev/null 2>&1; then
+        GRAPHIFY_CMD="graphify"
+        return 0
+    fi
+    if command -v npx >/dev/null 2>&1; then
+        GRAPHIFY_CMD="npx graphify"
+        return 0
+    fi
+    echo "[graphify hook] graphify not found. Install with: npm install -g @sentropic/graphify"
+    return 1
+}
+
+graphify_rebuild_code() {
+    graphify_detect_cmd || return 0
+    if [ -n "${XDG_CACHE_HOME:-}" ]; then
+        GRAPHIFY_CACHE_DIR="$XDG_CACHE_HOME/graphify"
+    elif [ -n "${LOCALAPPDATA:-}" ]; then
+        GRAPHIFY_CACHE_DIR="$LOCALAPPDATA/graphify"
+    elif [ -n "${HOME:-}" ]; then
+        GRAPHIFY_CACHE_DIR="$HOME/.cache/graphify"
+    else
+        GRAPHIFY_CACHE_DIR=".graphify"
+    fi
+    GRAPHIFY_LOG="$GRAPHIFY_CACHE_DIR/rebuild.log"
+    mkdir -p "$GRAPHIFY_CACHE_DIR"
+    if command -v nohup >/dev/null 2>&1; then
+        nohup sh -c "$GRAPHIFY_CMD hook-rebuild || true" > "$GRAPHIFY_LOG" 2>&1 < /dev/null &
+    else
+        sh -c "$GRAPHIFY_CMD hook-rebuild || true" > "$GRAPHIFY_LOG" 2>&1 < /dev/null &
+    fi
+    disown 2>/dev/null || true
+}
+
+graphify_should_skip && exit 0
+graphify_has_state || exit 0
+graphify_mark_stale "post-checkout"
+if [ -n "$PREV_HEAD" ] && [ -n "$NEW_HEAD" ]; then
+    GRAPHIFY_CHANGED=$(git diff --name-only "$PREV_HEAD" "$NEW_HEAD" 2>/dev/null || true)
+    export GRAPHIFY_CHANGED
+fi
+graphify_rebuild_code
+# graphify-checkout-hook-end

@@ -1,0 +1,70 @@
+{
+  "files": {
+    "code": [
+      "apps/admin/app/layout.tsx",
+      "apps/admin/app/page.tsx",
+      "apps/admin/next-env.d.ts",
+      "apps/admin/next.config.ts",
+      "apps/api/src/index.ts",
+      "apps/website/app/layout.tsx",
+      "apps/website/app/page.tsx",
+      "apps/website/next-env.d.ts",
+      "apps/website/next.config.ts",
+      "packages/auth/src/index.ts",
+      "packages/db/drizzle.config.ts",
+      "packages/db/src/index.ts",
+      "packages/db/src/schema/index.ts",
+      "packages/integrations/src/index.ts",
+      "packages/shared/src/index.ts",
+      "packages/ui/src/index.ts"
+    ],
+    "document": [
+      ".agents/skills/ponytail/SKILL.md",
+      ".github/workflows/ci.yml",
+      "CONTRIBUTING.md",
+      "DEVELOPMENT_GUIDE.md",
+      "README.md",
+      "docs/architecture/ADRS.md",
+      "docs/architecture/ARCHITECTURE.md",
+      "docs/architecture/ARCHITECTURE_REVIEW_REPORT.md",
+      "docs/architecture/IMPLEMENTATION_BACKLOG.md",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "workers/README.md"
+    ],
+    "paper": [],
+    "image": [],
+    "video": []
+  },
+  "total_files": 28,
+  "total_words": 17375,
+  "needs_graph": false,
+  "warning": "Corpus is ~17,375 words - fits in a single context window. You may not need a graph.",
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 21,
+  "git": {
+    "source_owner": "git",
+    "source_hash": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+    "branches": [
+      "main"
+    ],
+    "max_commits": 200,
+    "active_within_days": 30
+  },
+  "scope": {
+    "requested_mode": "auto",
+    "resolved_mode": "committed",
+    "source": "default-auto",
+    "root": ".",
+    "git_root": ".",
+    "head": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+    "candidate_count": 55,
+    "included_count": 28,
+    "excluded_untracked_count": 0,
+    "excluded_ignored_count": 182223,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
+  }
+}

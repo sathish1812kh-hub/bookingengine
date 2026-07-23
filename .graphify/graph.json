@@ -1,0 +1,768 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "provenance": {
+      "source_owner": "git",
+      "source_id": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "observed_at": "2026-07-23T14:53:44.255Z",
+      "source_hash": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "adapter_version": "graphify-git/1"
+    },
+    "community_labels": {
+      "0": "Community 0",
+      "1": "Community 1",
+      "2": "Community 2",
+      "3": "Community 3",
+      "4": "Community 4"
+    },
+    "built_from_commit": "b56cdfd3d3d08881331f18a6eac3950292e7e74f"
+  },
+  "topology_signature": "n=32;e=35;admin_next_config,admin_next_config_nextconfig,admin_next_env_d,app_layout,app_layout_rootlayout,app_page,app_page_admindashboardpage,app_page_gueststorefrontpage,branch:repo:github.com/sathish1812kh-hub/bookingengine#main,commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402,commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a,commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f,commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7,db_drizzle_config,schema_index,schema_index_organizations,src_index,src_index_apienvelopeschema,src_index_app,src_index_authusercontext,src_index_cn,src_index_createintegrationstatus,src_index_env,src_index_healthcheckresponse,src_index_healthcheckresponseschema,src_index_isauthorized,src_index_stayflexiclientconfig,src_index_systemstatus,src_index_ttlockclientconfig,website_next_config,website_next_config_nextconfig,website_next_env_d|admin_next_config\tadmin_next_config_nextconfig\tcontains;admin_next_config\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;admin_next_env_d\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_layout\tapp_layout_rootlayout\tcontains;app_layout\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_page\tapp_page_admindashboardpage\tcontains;app_page\tapp_page_gueststorefrontpage\tcontains;app_page\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tON_BRANCH;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tdb_drizzle_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tschema_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_env_d\tMODIFIES;schema_index\tschema_index_organizations\tcontains;schema_index\tsrc_index\timports_from;src_index\tsrc_index_apienvelopeschema\tcontains;src_index\tsrc_index_app\tcontains;src_index\tsrc_index_authusercontext\tcontains;src_index\tsrc_index_cn\tcontains;src_index\tsrc_index_createintegrationstatus\tcontains;src_index\tsrc_index_env\tcontains;src_index\tsrc_index_healthcheckresponse\tcontains;src_index\tsrc_index_healthcheckresponseschema\tcontains;src_index\tsrc_index_isauthorized\tcontains;src_index\tsrc_index_stayflexiclientconfig\tcontains;src_index\tsrc_index_systemstatus\tcontains;src_index\tsrc_index_ttlockclientconfig\tcontains;website_next_config\twebsite_next_config_nextconfig\tcontains",
+  "nodes": [
+    {
+      "id": "app_layout",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "apps/website/app/layout.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "apps/website/app/layout.tsx",
+      "source_location": "L3",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "app_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "apps/website/app/page.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "app_page_admindashboardpage",
+      "label": "AdminDashboardPage()",
+      "file_type": "code",
+      "source_file": "apps/admin/app/page.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "admin_next_env_d",
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "apps/admin/next-env.d.ts",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "admin_next_config",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "apps/admin/next.config.ts",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "admin_next_config_nextconfig",
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "apps/admin/next.config.ts",
+      "source_location": "L3",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "src_index",
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "packages/ui/src/index.ts",
+      "source_location": "L1",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_env",
+      "label": "Env",
+      "file_type": "code",
+      "source_file": "apps/api/src/index.ts",
+      "source_location": "L4",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_app",
+      "label": "app",
+      "file_type": "code",
+      "source_file": "apps/api/src/index.ts",
+      "source_location": "L8",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "app_page_gueststorefrontpage",
+      "label": "GuestStorefrontPage()",
+      "file_type": "code",
+      "source_file": "apps/website/app/page.tsx",
+      "source_location": "L1",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "website_next_env_d",
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "apps/website/next-env.d.ts",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "website_next_config",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "apps/website/next.config.ts",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "website_next_config_nextconfig",
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "apps/website/next.config.ts",
+      "source_location": "L3",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "src_index_authusercontext",
+      "label": "AuthUserContext",
+      "file_type": "code",
+      "source_file": "packages/auth/src/index.ts",
+      "source_location": "L1",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_isauthorized",
+      "label": "isAuthorized()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/index.ts",
+      "source_location": "L8",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "db_drizzle_config",
+      "label": "drizzle.config.ts",
+      "file_type": "code",
+      "source_file": "packages/db/drizzle.config.ts",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "schema_index",
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "packages/db/src/schema/index.ts",
+      "source_location": "L1",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
+      "id": "schema_index_organizations",
+      "label": "organizations",
+      "file_type": "code",
+      "source_file": "packages/db/src/schema/index.ts",
+      "source_location": "L3",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
+      "id": "src_index_stayflexiclientconfig",
+      "label": "StayflexiClientConfig",
+      "file_type": "code",
+      "source_file": "packages/integrations/src/index.ts",
+      "source_location": "L1",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_ttlockclientconfig",
+      "label": "TTLockClientConfig",
+      "file_type": "code",
+      "source_file": "packages/integrations/src/index.ts",
+      "source_location": "L6",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_createintegrationstatus",
+      "label": "createIntegrationStatus()",
+      "file_type": "code",
+      "source_file": "packages/integrations/src/index.ts",
+      "source_location": "L11",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_healthcheckresponseschema",
+      "label": "HealthCheckResponseSchema",
+      "file_type": "code",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L3",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_healthcheckresponse",
+      "label": "HealthCheckResponse",
+      "file_type": "code",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L10",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_apienvelopeschema",
+      "label": "ApiEnvelopeSchema()",
+      "file_type": "code",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L12",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_systemstatus",
+      "label": "SystemStatus",
+      "file_type": "code",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L28",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_cn",
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "packages/ui/src/index.ts",
+      "source_location": "L4",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402",
+      "label": "57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "sha": "57ba61152821d212b486b3fd3b3c448b2635e402",
+      "author": "sathish <sathish1812kh@gmail.com>",
+      "authoredAt": "2026-07-23T19:47:09+05:30",
+      "message_summary": "docs: add architecture review report, ADR package (12 ADRs), and implementation backlog",
+      "message_length": 87,
+      "parents": [
+        "e5bbd3c896fd9a430099e5d74ae1423fa726a7d7"
+      ],
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a",
+      "label": "889e7c0 Initial commit",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "sha": "889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a",
+      "author": "sathish <sathish1812kh@gmail.com>",
+      "authoredAt": "2026-07-23T19:26:48+05:30",
+      "message_summary": "Initial commit",
+      "message_length": 14,
+      "parents": [],
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "label": "b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "sha": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "author": "sathish <sathish1812kh@gmail.com>",
+      "authoredAt": "2026-07-23T20:02:13+05:30",
+      "message_summary": "feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides",
+      "message_length": 85,
+      "parents": [
+        "57ba61152821d212b486b3fd3b3c448b2635e402"
+      ],
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "label": "e5bbd3c docs: add comprehensive master architecture specification",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "sha": "e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "author": "sathish <sathish1812kh@gmail.com>",
+      "authoredAt": "2026-07-23T19:45:02+05:30",
+      "message_summary": "docs: add comprehensive master architecture specification",
+      "message_length": 57,
+      "parents": [
+        "889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a"
+      ],
+      "community": 2,
+      "community_name": "Community 2"
+    },
+    {
+      "id": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "label": "main",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Branch",
+      "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "branch_name": "main",
+      "head_sha": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "community": 2,
+      "community_name": "Community 2"
+    }
+  ],
+  "links": [
+    {
+      "source": "admin_next_config",
+      "target": "admin_next_config_nextconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/admin/next.config.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "admin_next_config",
+      "_tgt": "admin_next_config_nextconfig",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_layout",
+      "target": "app_layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/website/app/layout.tsx",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "app_layout",
+      "_tgt": "app_layout_rootlayout",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_page",
+      "target": "app_page_admindashboardpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/admin/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "app_page",
+      "_tgt": "app_page_admindashboardpage",
+      "confidence_score": 1
+    },
+    {
+      "source": "app_page",
+      "target": "app_page_gueststorefrontpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/website/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "app_page",
+      "_tgt": "app_page_gueststorefrontpage",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402",
+      "target": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402",
+      "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402",
+      "target": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402",
+      "_tgt": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a",
+      "target": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a",
+      "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a",
+      "target": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a",
+      "_tgt": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "admin_next_config",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/admin/next.config.ts",
+      "added": 8,
+      "deleted": 0,
+      "file_path": "apps/admin/next.config.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "admin_next_config",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "admin_next_env_d",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/admin/next-env.d.ts",
+      "added": 6,
+      "deleted": 0,
+      "file_path": "apps/admin/next-env.d.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "admin_next_env_d",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "app_layout",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/website/app/layout.tsx",
+      "added": 9,
+      "deleted": 0,
+      "file_path": "apps/website/app/layout.tsx",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "app_layout",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "app_page",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/website/app/page.tsx",
+      "added": 8,
+      "deleted": 0,
+      "file_path": "apps/website/app/page.tsx",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "app_page",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "db_drizzle_config",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/db/drizzle.config.ts",
+      "added": 10,
+      "deleted": 0,
+      "file_path": "packages/db/drizzle.config.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "db_drizzle_config",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "schema_index",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/db/src/schema/index.ts",
+      "added": 9,
+      "deleted": 0,
+      "file_path": "packages/db/src/schema/index.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "schema_index",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "src_index",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/ui/src/index.ts",
+      "added": 6,
+      "deleted": 0,
+      "file_path": "packages/ui/src/index.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "src_index",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "website_next_config",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/website/next.config.ts",
+      "added": 8,
+      "deleted": 0,
+      "file_path": "apps/website/next.config.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "website_next_config",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "target": "website_next_env_d",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/website/next-env.d.ts",
+      "added": 6,
+      "deleted": 0,
+      "file_path": "apps/website/next-env.d.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
+      "_tgt": "website_next_env_d",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "target": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "target": "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402",
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
+      "_tgt": "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402",
+      "confidence_score": 1
+    },
+    {
+      "source": "schema_index",
+      "target": "schema_index_organizations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/db/src/schema/index.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "schema_index",
+      "_tgt": "schema_index_organizations",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "schema_index",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/db/src/index.ts",
+      "source_location": "L1",
+      "weight": 1,
+      "context": "re-export",
+      "_src": "src_index",
+      "_tgt": "schema_index",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_apienvelopeschema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L12",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_apienvelopeschema",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/index.ts",
+      "source_location": "L8",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_app",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_authusercontext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/index.ts",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_authusercontext",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_cn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/ui/src/index.ts",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_cn",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_createintegrationstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/integrations/src/index.ts",
+      "source_location": "L11",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_createintegrationstatus",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_env",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/index.ts",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_env",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_healthcheckresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L10",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_healthcheckresponse",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_healthcheckresponseschema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_healthcheckresponseschema",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_isauthorized",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/index.ts",
+      "source_location": "L8",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_isauthorized",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_stayflexiclientconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/integrations/src/index.ts",
+      "source_location": "L1",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_stayflexiclientconfig",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_systemstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L28",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_systemstatus",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_ttlockclientconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/integrations/src/index.ts",
+      "source_location": "L6",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_ttlockclientconfig",
+      "confidence_score": 1
+    },
+    {
+      "source": "website_next_config",
+      "target": "website_next_config_nextconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/website/next.config.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "website_next_config",
+      "_tgt": "website_next_config_nextconfig",
+      "confidence_score": 1
+    }
+  ],
+  "hyperedges": []
+}
