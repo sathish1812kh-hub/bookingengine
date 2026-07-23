@@ -10,11 +10,15 @@ Write every name in English (en). Do not switch languages.
 
 ## Communities
 
-Community 0: app, AuthUserContext, Env, HealthCheckResponse, HealthCheckResponseSchema, StayflexiClientConfig, TTLockClientConfig, index.ts, ApiEnvelopeSchema(, cn(, createIntegrationStatus(, isAuthorized(
-Community 1: nextConfig, next.config.ts, next-env.d.ts, layout.tsx, RootLayout(, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, drizzle.config.ts
-Community 2: main, 57ba611 docs: add architecture review report, ADR package (1, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specific, ee66e84 docs(gemini): update GEMINI.md with active MCP inven, fdb0a76 feat(graphify): fully integrate official Graphify kn
-Community 3: page.tsx, AdminDashboardPage(, GuestStorefrontPage(
-Community 4: organizations, index.ts
+Community 0: app, AuthUserContext, Env, StayflexiClientConfig, TTLockClientConfig, index.ts, ApiEnvelopeSchema(, BaseEntity, cn(, createIntegrationStatus(, Environment, HealthCheckResponse
+Community 1: main, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (1, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specific, ee66e84 docs(gemini): update GEMINI.md with active MCP inven, fdb0a76 feat(graphify): fully integrate official Graphify kn, eslint.config.js
+Community 2: next-env.d.ts, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, drizzle.config.ts
+Community 3: EnvConfig, EnvSchema, env.ts, loadEnv(
+Community 4: page.tsx, AdminDashboardPage(, GuestStorefrontPage(
+Community 5: nextConfig, next.config.ts
+Community 6: layout.tsx, RootLayout(
+Community 7: organizations, index.ts
+Community 8: nextConfig, next.config.ts
 
 ## Instructions
 

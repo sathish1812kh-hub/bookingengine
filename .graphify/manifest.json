@@ -132,16 +132,16 @@
     "hash": "714f0ac577add2c47d094e9cb558478f"
   },
   "C:/bookingengine/.graphify/GRAPH_REPORT.md": {
-    "mtime": 1784818836058.8123,
-    "hash": "0c2690dc771bc2d278fbba39ae7938ec"
+    "mtime": 1784819615352.879,
+    "hash": "6a5969a46b83022017d301672ab1a40d"
   },
   "C:/bookingengine/.graphify/description-instructions/batch-000.md": {
-    "mtime": 1784818835951.8323,
-    "hash": "5e2c62abcd5b48f8ff8c963ca6c3f89e"
+    "mtime": 1784819615244.6624,
+    "hash": "4d139c7138df4b344868e4a15f304bbc"
   },
   "C:/bookingengine/.graphify/label-instructions/communities.md": {
-    "mtime": 1784818835832.1125,
-    "hash": "234ce6c05bd9288caab595011d45e56e"
+    "mtime": 1784819615117.062,
+    "hash": "bd1dbae0b6f46328f04c31ab163291a2"
   },
   "C:/bookingengine/.graphify/studio/index.html": {
     "mtime": 1784818331876.7722,
@@ -162,5 +162,37 @@
   "C:/bookingengine/docs/GRAPHIFY_INTEGRATION.md": {
     "mtime": 1784818545997.563,
     "hash": "e92f7812d0fe19dd128d78c2facfcd29"
+  },
+  "C:/bookingengine/eslint.config.js": {
+    "mtime": 1784818957784.254,
+    "hash": "edd3699e047654b92e3e0b55c03b3051"
+  },
+  "C:/bookingengine/packages/shared/src/env.ts": {
+    "mtime": 1784818997522.2456,
+    "hash": "fe6caaaa987b927b4cee0f1d4fbb3610"
+  },
+  "C:/bookingengine/packages/types/src/index.ts": {
+    "mtime": 1784818990410.886,
+    "hash": "ed3103456e7a2152fa38c241bfafb65a"
+  },
+  "C:/bookingengine/.github/ISSUE_TEMPLATE/bug_report.yml": {
+    "mtime": 1784818978227.306,
+    "hash": "e1bc17e0becf07302cb5bfb28375f38b"
+  },
+  "C:/bookingengine/.github/ISSUE_TEMPLATE/feature_request.yml": {
+    "mtime": 1784818980998.069,
+    "hash": "7c089a135be464547491df388f12c142"
+  },
+  "C:/bookingengine/.github/PULL_REQUEST_TEMPLATE.md": {
+    "mtime": 1784818974391.5425,
+    "hash": "444a329d25a1e97060293e19e9905d9f"
+  },
+  "C:/bookingengine/.github/dependabot.yml": {
+    "mtime": 1784818970459.9617,
+    "hash": "178709a0b93deb6a4d7eaa514ea8ec89"
+  },
+  "C:/bookingengine/scripts/README.md": {
+    "mtime": 1784818993359.286,
+    "hash": "a17509978b6c86403f7734a27286f32e"
   }
 }

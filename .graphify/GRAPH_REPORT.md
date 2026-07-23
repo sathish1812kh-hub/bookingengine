@@ -1,24 +1,24 @@
 # Graph Report - .  (2026-07-23)
 
 ## Corpus Check
-- Corpus is ~45,175 words - fits in a single context window. You may not need a graph.
+- Corpus is ~45,524 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 34 nodes · 39 edges · 4 communities detected
+- 42 nodes · 50 edges · 7 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 18 · MODIFIES: 9 · ON_BRANCH: 6 · PARENT_OF: 5 · imports_from: 1
+- Edge kinds: contains: 23 · MODIFIES: 12 · ON_BRANCH: 7 · PARENT_OF: 6 · imports_from: 2
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 41 · Candidates: 100
-- Excluded: 17 untracked · 267616 ignored · 0 sensitive · 0 missing committed
+- Included files: 49 · Candidates: 117
+- Excluded: 14 untracked · 267616 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `ee66e84`
+- Built from Git commit: `5373706`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `nextConfig` - 1 edges
@@ -29,39 +29,61 @@
 6. `organizations` - 1 edges
 7. `StayflexiClientConfig` - 1 edges
 8. `TTLockClientConfig` - 1 edges
-9. `HealthCheckResponseSchema` - 1 edges
-10. `HealthCheckResponse` - 1 edges
+9. `EnvSchema` - 1 edges
+10. `EnvConfig` - 1 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog` --PARENT_OF--> `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`  [EXTRACTED]
-  git → git  _Bridges community 2 → community 1_
+  git → git  _Bridges community 1 → community 2_
 
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.15
-Nodes (8): app, AuthUserContext, Env, HealthCheckResponse, HealthCheckResponseSchema, StayflexiClientConfig, SystemStatus, TTLockClientConfig
+Cohesion: 0.13
+Nodes (10): app, AuthUserContext, BaseEntity, Env, Environment, HealthCheckResponse, HealthCheckResponseSchema, StayflexiClientConfig (+2 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.20
-Nodes (3): nextConfig, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides, nextConfig
+Cohesion: 0.39
+Nodes (7): main, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync, fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline
 
 ### Community 2 - "Community 2"
-Cohesion: 0.53
-Nodes (6): main, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync, fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline
+Cohesion: 0.50
+Nodes (1): b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides
 
-### Community 4 - "Community 4"
+### Community 3 - "Community 3"
+Cohesion: 0.50
+Nodes (2): EnvConfig, EnvSchema
+
+### Community 5 - "Community 5"
+Cohesion: 1.00
+Nodes (1): nextConfig
+
+### Community 7 - "Community 7"
 Cohesion: 1.00
 Nodes (1): organizations
 
+### Community 8 - "Community 8"
+Cohesion: 1.00
+Nodes (1): nextConfig
+
 ## Knowledge Gaps
-- **11 isolated node(s):** `nextConfig`, `Env`, `app`, `nextConfig`, `AuthUserContext` (+6 more)
+- **15 isolated node(s):** `nextConfig`, `Env`, `app`, `nextConfig`, `AuthUserContext` (+10 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 4`** (1 nodes): `organizations`
+- **Thin community `Community 2`** (1 nodes): `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 3`** (2 nodes): `EnvConfig`, `EnvSchema`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 5`** (1 nodes): `nextConfig`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 7`** (1 nodes): `organizations`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 8`** (1 nodes): `nextConfig`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `nextConfig`, `Env`, `app` to the rest of the system?**
-  _11 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _15 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
