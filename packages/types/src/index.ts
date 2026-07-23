@@ -11,12 +11,15 @@ export interface AuthUser {
   email: string;
   organizationId: string;
   name: string;
+  currentHotelId?: string;
+  accessibleHotelIds?: string[];
 }
 
 export interface Session {
   id: string;
   userId: string;
   organizationId: string;
+  currentHotelId?: string;
   expiresAt: string;
   createdAt: string;
 }
@@ -70,4 +73,35 @@ export interface TenantContext {
   organization: Organization;
   settings: OrganizationSettings;
   features: Record<string, boolean>;
+}
+
+export interface Hotel {
+  id: string;
+  organizationId: string;
+  code: string;
+  name: string;
+  legalName: string;
+  brand: string;
+  slug: string;
+  timezone: string;
+  currency: string;
+  language: string;
+  checkInTime: string;
+  checkOutTime: string;
+  status: 'draft' | 'active' | 'inactive';
+  gstin?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface HotelBusinessDate {
+  id: string;
+  hotelId: string;
+  currentBusinessDate: string; // YYYY-MM-DD
+  isOpen: boolean;
+}
+
+export interface HotelContext {
+  hotel: Hotel;
+  businessDate: HotelBusinessDate;
 }

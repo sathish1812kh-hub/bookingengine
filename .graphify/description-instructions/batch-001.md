@@ -1,4 +1,4 @@
-# Node Description Batch 2 of 3
+# Node Description Batch 2 of 4
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -12,11 +12,31 @@ describing what it is or does. Use only the provided context.
 For a code symbol (kind=code-symbol — a function, class, or constant),
 describe what the function/symbol does based on its name, source location
 and neighbors — e.g. "Resolves the configured ontology profile from graphify.yaml.".
+For an entity node (any other kind — e.g. a person, place, event, object),
+describe what the entity is and its role, grounded in its type, its
+relations (neighbors) and the provided citations/evidence — e.g.
+"Lady Carfax, a wealthy heiress who disappears en route to Lausanne.".
+Ground entity descriptions in the citations/evidence when present; do not
+speculate beyond the context, so a node with no supporting context may be
+left out of the reply.
 Write every description in English (en). Do not switch languages.
 No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a": "889e7c0 Initial commit" | kind=Commit | source=git | neighbors=[main, e5bbd3c docs: add comprehensive master …]
+- "login_page": "page.tsx" | kind=code-symbol | source=apps/admin/app/login/page.tsx:L1 | neighbors=[93b95cf feat(auth): complete authentica…, LoginPage()]
+- "routes_auth_authrouter": "authRouter" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L9 | neighbors=[auth.ts, index.ts]
+- "src_auth_provider_authprovider_createsession": ".createSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L7 | neighbors=[AuthProvider, .rotateSession()]
+- "src_auth_provider_authprovider_revokesession": ".revokeSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L25 | neighbors=[AuthProvider, .rotateSession()]
+- "src_auth_test": "auth.test.ts" | kind=code-symbol | source=packages/auth/src/auth.test.ts:L1 | neighbors=[d899e94 feat(auth): implement authentic…, index.ts]
+- "src_crypto_bytestohex": "bytesToHex()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L35 | neighbors=[crypto.ts, hashPassword()]
+- "src_crypto_hextobytes": "hexToBytes()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L41 | neighbors=[crypto.ts, hashPassword()]
+- "src_crypto_verifypassword": "verifyPassword()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L30 | neighbors=[crypto.ts, hashPassword()]
+- "src_tenant_resolver_memoryorganizationrepository_getfeatures": ".getFeatures()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L68 | neighbors=[MemoryOrganizationRepository, .resolveContext()]
+- "src_tenant_resolver_memoryorganizationrepository_getsettings": ".getSettings()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L64 | neighbors=[MemoryOrganizationRepository, .resolveContext()]
+- "src_tenant_resolver_organizationrepository": "OrganizationRepository" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L3 | neighbors=[tenant-resolver.ts, MemoryOrganizationRepository]
+- "src_tenant_test": "tenant.test.ts" | kind=code-symbol | source=packages/auth/src/tenant.test.ts:L1 | neighbors=[67e5e40 feat(tenant): implement Organiz…, index.ts]
 - "website_next_config": "next.config.ts" | kind=code-symbol | source=apps/website/next.config.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, nextConfig]
 - "admin_next_config_nextconfig": "nextConfig" | kind=code-symbol | source=apps/admin/next.config.ts:L3 | neighbors=[next.config.ts]
 - "admin_next_env_d": "next-env.d.ts" | kind=code-symbol | source=apps/admin/next-env.d.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…]
@@ -29,34 +49,21 @@ one-sentence description — no prose, no markdown fences.
 - "middlewares_auth_middleware_authcontextvariables": "AuthContextVariables" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L9 | neighbors=[auth.middleware.ts]
 - "middlewares_auth_middleware_memorystore": "memoryStore" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L7 | neighbors=[auth.middleware.ts]
 - "middlewares_auth_middleware_requireauthmiddleware": "requireAuthMiddleware()" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L15 | neighbors=[auth.middleware.ts]
+- "middlewares_tenant_middleware_orgrepo": "orgRepo" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L5 | neighbors=[tenant.middleware.ts]
+- "middlewares_tenant_middleware_tenantcontextvariables": "TenantContextVariables" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L8 | neighbors=[tenant.middleware.ts]
+- "middlewares_tenant_middleware_tenantmiddleware": "tenantMiddleware()" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L12 | neighbors=[tenant.middleware.ts]
+- "middlewares_tenant_middleware_tenantresolver": "tenantResolver" | kind=code-symbol | source=apps/api/src/middlewares/tenant.middleware.ts:L6 | neighbors=[tenant.middleware.ts]
 - "routes_auth_getmockhash": "getMockHash()" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L15 | neighbors=[auth.ts]
 - "routes_auth_globalmemorystore": "globalMemoryStore" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L7 | neighbors=[auth.ts]
 - "schema_index_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/index.ts:L3 | neighbors=[index.ts]
-- "src_auth_provider_authprovider_constructor": ".constructor()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L5 | neighbors=[AuthProvider]
-- "src_auth_provider_authprovider_validatesession": ".validateSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L20 | neighbors=[AuthProvider]
-- "src_env_envconfig": "EnvConfig" | kind=code-symbol | source=packages/shared/src/env.ts:L10 | neighbors=[env.ts]
-- "src_env_envschema": "EnvSchema" | kind=code-symbol | source=packages/shared/src/env.ts:L3 | neighbors=[env.ts]
-- "src_env_loadenv": "loadEnv()" | kind=code-symbol | source=packages/shared/src/env.ts:L12 | neighbors=[env.ts]
-- "src_index_apienvelopeschema": "ApiEnvelopeSchema()" | kind=code-symbol | source=packages/shared/src/index.ts:L19 | neighbors=[index.ts]
-- "src_index_app": "app" | kind=code-symbol | source=apps/api/src/index.ts:L10 | neighbors=[index.ts]
-- "src_index_authresult": "AuthResult" | kind=code-symbol | source=packages/types/src/index.ts:L29 | neighbors=[index.ts]
-- "src_index_authuser": "AuthUser" | kind=code-symbol | source=packages/types/src/index.ts:L9 | neighbors=[index.ts]
-- "src_index_authusercontext": "AuthUserContext" | kind=code-symbol | source=packages/auth/src/index.ts:L6 | neighbors=[index.ts]
-- "src_index_baseentity": "BaseEntity" | kind=code-symbol | source=packages/types/src/index.ts:L3 | neighbors=[index.ts]
-- "src_index_cn": "cn()" | kind=code-symbol | source=packages/ui/src/index.ts:L4 | neighbors=[index.ts]
-- "src_index_createintegrationstatus": "createIntegrationStatus()" | kind=code-symbol | source=packages/integrations/src/index.ts:L11 | neighbors=[index.ts]
-- "src_index_env": "Env" | kind=code-symbol | source=apps/api/src/index.ts:L5 | neighbors=[index.ts]
-- "src_index_environment": "Environment" | kind=code-symbol | source=packages/types/src/index.ts:L1 | neighbors=[index.ts]
-- "src_index_formatcurrency": "formatCurrency()" | kind=code-symbol | source=packages/utils/src/index.ts:L1 | neighbors=[index.ts]
-- "src_index_formatdateiso": "formatDateISO()" | kind=code-symbol | source=packages/utils/src/index.ts:L8 | neighbors=[index.ts]
-- "src_index_healthcheckresponse": "HealthCheckResponse" | kind=code-symbol | source=packages/shared/src/index.ts:L17 | neighbors=[index.ts]
-- "src_index_healthcheckresponseschema": "HealthCheckResponseSchema" | kind=code-symbol | source=packages/shared/src/index.ts:L3 | neighbors=[index.ts]
-- "src_index_isauthorized": "isAuthorized()" | kind=code-symbol | source=packages/auth/src/index.ts:L13 | neighbors=[index.ts]
-- "src_index_logincredentials": "LoginCredentials" | kind=code-symbol | source=packages/types/src/index.ts:L24 | neighbors=[index.ts]
-- "src_index_loginrequest": "LoginRequest" | kind=code-symbol | source=packages/shared/src/index.ts:L15 | neighbors=[index.ts]
-- "src_index_loginrequestschema": "LoginRequestSchema" | kind=code-symbol | source=packages/shared/src/index.ts:L10 | neighbors=[index.ts]
-- "src_index_organization": "Organization" | kind=code-symbol | source=packages/types/src/index.ts:L35 | neighbors=[index.ts]
-- "src_index_organizationdomain": "OrganizationDomain" | kind=code-symbol | source=packages/types/src/index.ts:L53 | neighbors=[index.ts]
+- "schema_organization_organizationdomains": "organizationDomains" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L39 | neighbors=[organization.ts]
+- "schema_organization_organizationdomainsrelations": "organizationDomainsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L93 | neighbors=[organization.ts]
+- "schema_organization_organizationfeatures": "organizationFeatures" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L57 | neighbors=[organization.ts]
+- "schema_organization_organizationfeaturesrelations": "organizationFeaturesRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L100 | neighbors=[organization.ts]
+- "schema_organization_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L4 | neighbors=[organization.ts]
+- "schema_organization_organizationsettings": "organizationSettings" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L20 | neighbors=[organization.ts]
+- "schema_organization_organizationsettingsrelations": "organizationSettingsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L86 | neighbors=[organization.ts]
+- "schema_organization_organizationsrelations": "organizationsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L77 | neighbors=[organization.ts]
 
 ## Instructions
 

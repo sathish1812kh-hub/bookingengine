@@ -2,6 +2,7 @@ export * from './crypto';
 export * from './session-store';
 export * from './auth-provider';
 export * from './tenant-resolver';
+export * from './hotel-resolver';
 
 export interface AuthUserContext {
   userId: string;
