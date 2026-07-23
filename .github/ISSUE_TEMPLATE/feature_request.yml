@@ -1,0 +1,12 @@
+name: Feature Request
+description: Propose an architectural or feature improvement
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Describe the feature or improvement proposed.
+    validations:
+      required: true

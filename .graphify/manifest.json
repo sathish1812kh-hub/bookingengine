@@ -56,8 +56,8 @@
     "hash": "05405d91960ba10e42829379de9890ad"
   },
   "C:/bookingengine/packages/shared/src/index.ts": {
-    "mtime": 1784816332418.821,
-    "hash": "f9367ac58136d4b76974970f2f470ee6"
+    "mtime": 1784819000605.787,
+    "hash": "94171a4a51e63f09cd08991919e38de2"
   },
   "C:/bookingengine/packages/ui/src/index.ts": {
     "mtime": 1784816371275.045,
@@ -100,8 +100,8 @@
     "hash": "07e5526674b441f3032ba978b3039b41"
   },
   "C:/bookingengine/pnpm-lock.yaml": {
-    "mtime": 1784818115221.7244,
-    "hash": "b82f815213724f9ab4618e243bbf77cf"
+    "mtime": 1784819189283.2021,
+    "hash": "a36b9996dc829a430847d92e70b476e3"
   },
   "C:/bookingengine/pnpm-workspace.yaml": {
     "mtime": 1784816298895.847,
@@ -132,16 +132,16 @@
     "hash": "714f0ac577add2c47d094e9cb558478f"
   },
   "C:/bookingengine/.graphify/GRAPH_REPORT.md": {
-    "mtime": 1784818424481.7668,
-    "hash": "de396f22e0c540535ca1ad5ee98ac2c8"
+    "mtime": 1784818836058.8123,
+    "hash": "0c2690dc771bc2d278fbba39ae7938ec"
   },
   "C:/bookingengine/.graphify/description-instructions/batch-000.md": {
-    "mtime": 1784818424398.818,
-    "hash": "cfeb1bdf3ee19682d3c0b84bf6299394"
+    "mtime": 1784818835951.8323,
+    "hash": "5e2c62abcd5b48f8ff8c963ca6c3f89e"
   },
   "C:/bookingengine/.graphify/label-instructions/communities.md": {
-    "mtime": 1784818424283.82,
-    "hash": "4922bf09ede22c8be8f870c40cb8545f"
+    "mtime": 1784818835832.1125,
+    "hash": "234ce6c05bd9288caab595011d45e56e"
   },
   "C:/bookingengine/.graphify/studio/index.html": {
     "mtime": 1784818331876.7722,

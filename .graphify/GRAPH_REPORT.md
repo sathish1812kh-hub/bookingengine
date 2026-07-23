@@ -1,24 +1,24 @@
 # Graph Report - .  (2026-07-23)
 
 ## Corpus Check
-- Corpus is ~41,175 words - fits in a single context window. You may not need a graph.
+- Corpus is ~45,175 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 33 nodes · 37 edges · 4 communities detected
+- 34 nodes · 39 edges · 4 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 18 · MODIFIES: 9 · ON_BRANCH: 5 · PARENT_OF: 4 · imports_from: 1
+- Edge kinds: contains: 18 · MODIFIES: 9 · ON_BRANCH: 6 · PARENT_OF: 5 · imports_from: 1
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
 - Included files: 41 · Candidates: 100
-- Excluded: 1 untracked · 182223 ignored · 0 sensitive · 0 missing committed
+- Excluded: 17 untracked · 267616 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `fdb0a76`
+- Built from Git commit: `ee66e84`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `nextConfig` - 1 edges
@@ -47,8 +47,8 @@ Cohesion: 0.20
 Nodes (3): nextConfig, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides, nextConfig
 
 ### Community 2 - "Community 2"
-Cohesion: 0.60
-Nodes (5): main, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline
+Cohesion: 0.53
+Nodes (6): main, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync, fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline
 
 ### Community 4 - "Community 4"
 Cohesion: 1.00

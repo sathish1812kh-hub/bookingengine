@@ -1,0 +1,6 @@
+# Global Codeowners
+* @sathish1812kh-hub
+
+# Architecture & Financial Ledger Security Ownership
+/docs/architecture/ @sathish1812kh-hub
+/packages/db/ @sathish1812kh-hub
