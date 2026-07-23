@@ -6,6 +6,44 @@ export interface BaseEntity {
   updatedAt: string;
 }
 
+export type PermissionScope = 'Global' | 'Organization' | 'Hotel' | 'Department';
+
+export interface Permission {
+  id: string;
+  code: string;
+  name: string;
+  description?: string | null;
+  module: string;
+  resource: string;
+  action: string;
+  scope: PermissionScope;
+  status: 'active' | 'inactive';
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface Role {
+  id: string;
+  organizationId: string;
+  code: string;
+  name: string;
+  description?: string | null;
+  isTemplate: boolean;
+  status: 'active' | 'inactive';
+  createdAt: string;
+  updatedAt: string;
+  permissionIds?: string[];
+}
+
+export interface UserRole {
+  id: string;
+  userId: string;
+  roleId: string;
+  organizationId: string;
+  hotelId?: string | null;
+  createdAt: string;
+}
+
 export interface UserHotelAssignment {
   id: string;
   userId: string;
@@ -66,6 +104,7 @@ export interface AuthUser {
   currentHotelId?: string;
   defaultHotelId?: string;
   accessibleHotelIds?: string[];
+  permissions?: string[];
 }
 
 export interface Session {
@@ -75,6 +114,7 @@ export interface Session {
   currentHotelId?: string;
   defaultHotelId?: string;
   accessibleHotelIds?: string[];
+  permissions?: string[];
   expiresAt: string;
   createdAt: string;
 }

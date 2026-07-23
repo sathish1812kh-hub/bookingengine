@@ -26,6 +26,15 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "middlewares_auth_middleware": "auth.middleware.ts" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L1 | neighbors=[93b95cf feat(auth): complete authentica…, AuthContextVariables, memoryStore, requireAuthMiddleware()] | lang=en
+- "middlewares_hotel_scope_middleware": "hotel-scope.middleware.ts" | kind=code-symbol | source=apps/api/src/middlewares/hotel-scope.middleware.ts:L1 | neighbors=[ac91018 feat(scope): implement Hotel As…, HotelScopeVariables, requireAccessibleHotel(), requireCurrentHotel()] | lang=en
+- "routes_hotels": "hotels.ts" | kind=code-symbol | source=apps/api/src/routes/hotels.ts:L1 | neighbors=[51fd7f6 feat(hotel): implement Hotel & …, hotelRepo, hotelRouter, index.ts] | lang=en
+- "schema_organization_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L4 | neighbors=[assignment.ts, hotel.ts, organization.ts, user.ts] | lang=en
+- "src_hotel_assignment_service_memoryassignmentrepository_getbyuser": ".getByUser()" | kind=code-symbol | source=packages/auth/src/hotel-assignment-service.ts:L33 | neighbors=[.getDefaultHotel(), .listAccessibleHotels(), MemoryAssignmentRepository, .setDefault()] | lang=en
+- "src_hotel_resolver_hotelresolver": "HotelResolver" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L87 | neighbors=[hotel-resolver.ts, .constructor(), .resolveContext(), .validateCrossHotelAccess()] | lang=en
+- "src_session_store_sessionstore": "SessionStore" | kind=code-symbol | source=packages/auth/src/session-store.ts:L3 | neighbors=[auth-provider.ts, session-store.ts, KVSessionStore, MemorySessionStore] | lang=en
+- "src_tenant_resolver_tenantresolver": "TenantResolver" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L73 | neighbors=[tenant-resolver.ts, .constructor(), .resolveContext(), .validateCrossTenantAccess()] | lang=en
+- "app_page": "page.tsx" | kind=code-symbol | source=apps/website/app/page.tsx:L1 | neighbors=[AdminDashboardPage(), GuestStorefrontPage(), b56cdfd feat(scaffolding): Phase 1 mono…] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f": "3efb8ed docs(product): create master Product Blueprint specification and freeze…" | kind=Commit | source=git | neighbors=[main, f4675ed docs(project): create Master Ex…, 8264a67 docs(ux): add comprehensive UX …] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402": "57ba611 docs: add architecture review report, ADR package (12 ADRs), and implem…" | kind=Commit | source=git | neighbors=[main, b56cdfd feat(scaffolding): Phase 1 mono…, e5bbd3c docs: add comprehensive master …] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd": "7699c20 chore(epic-001): initialize workspace foundation" | kind=Commit | source=git | neighbors=[main, e9fba19 chore(epic-001): workspace foun…, f4675ed docs(project): create Master Ex…] | lang=en
@@ -35,8 +44,10 @@ one-sentence description — no prose, no markdown fences.
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa": "f4675ed docs(project): create Master Execution Plan & Epic Roadmap (EPIC-001 th…" | kind=Commit | source=git | neighbors=[3efb8ed docs(product): create master Pr…, main, 7699c20 chore(epic-001): initialize wor…] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7": "fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engin…" | kind=Commit | source=git | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, main, ee66e84 docs(gemini): update GEMINI.md …] | lang=en
 - "hotels_page": "page.tsx" | kind=code-symbol | source=apps/admin/app/hotels/page.tsx:L1 | neighbors=[51fd7f6 feat(hotel): implement Hotel & …, HotelItem, HotelsPage()] | lang=en
-- "schema_organization_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L4 | neighbors=[hotel.ts, organization.ts, user.ts] | lang=en
 - "src_auth_provider_authprovider_rotatesession": ".rotateSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L29 | neighbors=[AuthProvider, .createSession(), .revokeSession()] | lang=en
+- "src_hotel_assignment_service_hotelassignmentservice_assignusertohotel": ".assignUserToHotel()" | kind=code-symbol | source=packages/auth/src/hotel-assignment-service.ts:L106 | neighbors=[HotelAssignmentService, .assign(), .setDefault()] | lang=en
+- "src_hotel_assignment_service_memoryassignmentrepository_assign": ".assign()" | kind=code-symbol | source=packages/auth/src/hotel-assignment-service.ts:L48 | neighbors=[.assignUserToHotel(), MemoryAssignmentRepository, .getAssignment()] | lang=en
+- "src_hotel_assignment_service_memoryassignmentrepository_setdefault": ".setDefault()" | kind=code-symbol | source=packages/auth/src/hotel-assignment-service.ts:L76 | neighbors=[.assignUserToHotel(), MemoryAssignmentRepository, .getByUser()] | lang=en
 - "src_hotel_resolver_hotelresolver_resolvecontext": ".resolveContext()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L90 | neighbors=[HotelResolver, .getBusinessDate(), .getById()] | lang=en
 - "src_identity_service_identityservice_lockaccountafterfailedattempts": ".lockAccountAfterFailedAttempts()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L130 | neighbors=[IdentityService, .lockAccount(), .update()] | lang=en
 - "src_identity_service_memoryuserrepository_update": ".update()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L93 | neighbors=[.changePassword(), .lockAccountAfterFailedAttempts(), MemoryUserRepository] | lang=en
@@ -47,25 +58,14 @@ one-sentence description — no prose, no markdown fences.
 - "app_layout": "layout.tsx" | kind=code-symbol | source=apps/website/app/layout.tsx:L1 | neighbors=[RootLayout(), b56cdfd feat(scaffolding): Phase 1 mono…] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a": "889e7c0 Initial commit" | kind=Commit | source=git | neighbors=[main, e5bbd3c docs: add comprehensive master …] | lang=en
 - "login_page": "page.tsx" | kind=code-symbol | source=apps/admin/app/login/page.tsx:L1 | neighbors=[93b95cf feat(auth): complete authentica…, LoginPage()] | lang=en
+- "routes_assignments_assignmentrouter": "assignmentRouter" | kind=code-symbol | source=apps/api/src/routes/assignments.ts:L7 | neighbors=[assignments.ts, index.ts] | lang=en
 - "routes_auth_authrouter": "authRouter" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L9 | neighbors=[auth.ts, index.ts] | lang=en
 - "routes_hotels_hotelrouter": "hotelRouter" | kind=code-symbol | source=apps/api/src/routes/hotels.ts:L6 | neighbors=[hotels.ts, index.ts] | lang=en
 - "routes_users_userrouter": "userRouter" | kind=code-symbol | source=apps/api/src/routes/users.ts:L7 | neighbors=[users.ts, index.ts] | lang=en
+- "schema_hotel_hotels": "hotels" | kind=code-symbol | source=packages/db/src/schema/hotel.ts:L5 | neighbors=[assignment.ts, hotel.ts] | lang=en
+- "schema_user_users": "users" | kind=code-symbol | source=packages/db/src/schema/user.ts:L5 | neighbors=[assignment.ts, user.ts] | lang=en
+- "src_assignment_test": "assignment.test.ts" | kind=code-symbol | source=packages/auth/src/assignment.test.ts:L1 | neighbors=[ac91018 feat(scope): implement Hotel As…, index.ts] | lang=en
 - "src_auth_provider_authprovider_createsession": ".createSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L7 | neighbors=[AuthProvider, .rotateSession()] | lang=en
-- "src_auth_provider_authprovider_revokesession": ".revokeSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L25 | neighbors=[AuthProvider, .rotateSession()] | lang=en
-- "src_auth_test": "auth.test.ts" | kind=code-symbol | source=packages/auth/src/auth.test.ts:L1 | neighbors=[d899e94 feat(auth): implement authentic…, index.ts] | lang=en
-- "src_crypto_bytestohex": "bytesToHex()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L35 | neighbors=[crypto.ts, hashPassword()] | lang=en
-- "src_crypto_hextobytes": "hexToBytes()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L41 | neighbors=[crypto.ts, hashPassword()] | lang=en
-- "src_crypto_verifypassword": "verifyPassword()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L30 | neighbors=[crypto.ts, hashPassword()] | lang=en
-- "src_hotel_resolver_hotelrepository": "HotelRepository" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L3 | neighbors=[hotel-resolver.ts, MemoryHotelRepository] | lang=en
-- "src_hotel_resolver_memoryhotelrepository_getbusinessdate": ".getBusinessDate()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L82 | neighbors=[.resolveContext(), MemoryHotelRepository] | lang=en
-- "src_hotel_resolver_memoryhotelrepository_getbyid": ".getById()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L46 | neighbors=[.resolveContext(), MemoryHotelRepository] | lang=en
-- "src_hotel_test": "hotel.test.ts" | kind=code-symbol | source=packages/auth/src/hotel.test.ts:L1 | neighbors=[51fd7f6 feat(hotel): implement Hotel & …, index.ts] | lang=en
-- "src_identity_service_identityservice_changepassword": ".changePassword()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L142 | neighbors=[IdentityService, .update()] | lang=en
-- "src_identity_service_identityservice_finduserbyemail": ".findUserByEmail()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L126 | neighbors=[IdentityService, .getByEmail()] | lang=en
-- "src_identity_service_identityservice_finduserbyid": ".findUserById()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L122 | neighbors=[IdentityService, .getById()] | lang=en
-- "src_identity_service_memoryuserrepository_getbyemail": ".getByEmail()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L50 | neighbors=[.findUserByEmail(), MemoryUserRepository] | lang=en
-- "src_identity_service_memoryuserrepository_getbyid": ".getById()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L44 | neighbors=[.findUserById(), MemoryUserRepository] | lang=en
-- "src_identity_service_memoryuserrepository_lockaccount": ".lockAccount()" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L110 | neighbors=[.lockAccountAfterFailedAttempts(), MemoryUserRepository] | lang=en
 
 ## Instructions
 

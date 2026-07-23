@@ -4,6 +4,8 @@ import { authRouter } from './routes/auth';
 import { hotelRouter } from './routes/hotels';
 import { userRouter } from './routes/users';
 import { assignmentRouter } from './routes/assignments';
+import { permissionRouter } from './routes/permissions';
+import { roleRouter } from './routes/roles';
 
 export interface Env {
   ENVIRONMENT?: string;
@@ -15,6 +17,8 @@ const app = new Hono<{ Bindings: Env }>();
 app.route('/api/auth', authRouter);
 app.route('/api/hotels', hotelRouter);
 app.route('/api/users', userRouter);
+app.route('/api/permissions', permissionRouter);
+app.route('/api/roles', roleRouter);
 app.route('/api', assignmentRouter);
 
 app.get('/health', (c) => {
