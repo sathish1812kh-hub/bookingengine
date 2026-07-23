@@ -1,25 +1,25 @@
 # Graph Report - .  (2026-07-23)
 
 ## Corpus Check
-- 65 files · ~51,501 words
+- 66 files · ~52,987 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 46 nodes · 58 edges · 7 communities detected
+- 53 nodes · 67 edges · 7 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 23 · MODIFIES: 12 · ON_BRANCH: 11 · PARENT_OF: 10 · imports_from: 2
+- Edge kinds: contains: 29 · MODIFIES: 13 · ON_BRANCH: 12 · PARENT_OF: 11 · imports_from: 2
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 65 · Candidates: 137
-- Excluded: 3 untracked · 276276 ignored · 0 sensitive · 0 missing committed
+- Included files: 66 · Candidates: 139
+- Excluded: 6 untracked · 280046 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `7699c20`
+- Built from Git commit: `e9fba19`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
 1. `nextConfig` - 1 edges
@@ -44,12 +44,12 @@
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.13
-Nodes (10): app, AuthUserContext, BaseEntity, Env, Environment, HealthCheckResponse, HealthCheckResponseSchema, StayflexiClientConfig (+2 more)
+Cohesion: 0.10
+Nodes (14): app, AuthResult, AuthUser, AuthUserContext, BaseEntity, Env, Environment, HealthCheckResponse (+6 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.43
-Nodes (8): main, 3efb8ed docs(product): create master Product Blueprint specification and freeze architecture, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, f4675ed docs(project): create Master Execution Plan & Epic Roadmap (EPIC-001 through EPIC-016)
+Cohesion: 0.39
+Nodes (9): main, 3efb8ed docs(product): create master Product Blueprint specification and freeze architecture, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, e9fba19 chore(epic-001): workspace foundation (+1 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.25
@@ -72,7 +72,7 @@ Cohesion: 1.00
 Nodes (1): nextConfig
 
 ## Knowledge Gaps
-- **15 isolated node(s):** `nextConfig`, `Env`, `app`, `nextConfig`, `AuthUserContext` (+10 more)
+- **19 isolated node(s):** `nextConfig`, `Env`, `app`, `nextConfig`, `AuthUserContext` (+14 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Community 3`** (1 nodes): `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -87,6 +87,6 @@ Nodes (1): nextConfig
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `nextConfig`, `Env`, `app` to the rest of the system?**
-  _15 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _19 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._

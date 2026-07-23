@@ -13,6 +13,7 @@
     "@bookingengine/db": "workspace:*",
     "@bookingengine/integrations": "workspace:*",
     "@bookingengine/shared": "workspace:*",
+    "@bookingengine/types": "workspace:*",
     "hono": "^4.6.14"
   },
   "devDependencies": {

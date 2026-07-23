@@ -24,7 +24,8 @@
       "packages/shared/src/env.ts",
       "packages/shared/src/index.ts",
       "packages/types/src/index.ts",
-      "packages/ui/src/index.ts"
+      "packages/ui/src/index.ts",
+      "packages/utils/src/index.ts"
     ],
     "document": [
       ".agents/skills/ponytail/SKILL.md",
@@ -73,15 +74,15 @@
     "image": [],
     "video": []
   },
-  "total_files": 65,
-  "total_words": 51501,
+  "total_files": 66,
+  "total_words": 52987,
   "needs_graph": true,
   "warning": null,
   "skipped_sensitive": [],
   "graphifyignore_patterns": 21,
   "git": {
     "source_owner": "git",
-    "source_hash": "7699c207af4889fe33bc77f912dfc6ed8e20debd",
+    "source_hash": "e9fba19c69dec0cae4930f416800987985771c35",
     "branches": [
       "main"
     ],
@@ -94,11 +95,11 @@
     "source": "default-auto",
     "root": ".",
     "git_root": ".",
-    "head": "7699c207af4889fe33bc77f912dfc6ed8e20debd",
-    "candidate_count": 137,
-    "included_count": 65,
-    "excluded_untracked_count": 3,
-    "excluded_ignored_count": 276276,
+    "head": "e9fba19c69dec0cae4930f416800987985771c35",
+    "candidate_count": 139,
+    "included_count": 66,
+    "excluded_untracked_count": 6,
+    "excluded_ignored_count": 280046,
     "excluded_sensitive_count": 0,
     "missing_committed_count": 0,
     "warnings": [],

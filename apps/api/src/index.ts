@@ -1,11 +1,15 @@
 import { Hono } from 'hono';
 import { HealthCheckResponse } from '@bookingengine/shared';
+import { authRouter } from './routes/auth';
 
 export interface Env {
   ENVIRONMENT?: string;
+  SESSION_KV?: any;
 }
 
 const app = new Hono<{ Bindings: Env }>();
+
+app.route('/api/auth', authRouter);
 
 app.get('/health', (c) => {
   const response: HealthCheckResponse = {
