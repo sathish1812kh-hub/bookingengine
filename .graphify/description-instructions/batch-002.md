@@ -1,4 +1,4 @@
-# Node Description Batch 3 of 5
+# Node Description Batch 3 of 6
 
 Graphify is running in assistant/skill mode (no API key). You are the host
 assistant (Claude Code / Codex / Gemini CLI). Read the prompt below and write
@@ -17,6 +17,24 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
+- "src_identity_service_userrepository": "UserRepository" | kind=code-symbol | source=packages/auth/src/identity-service.ts:L4 | neighbors=[identity-service.ts, MemoryUserRepository]
+- "src_tenant_resolver_memoryorganizationrepository_getfeatures": ".getFeatures()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L68 | neighbors=[MemoryOrganizationRepository, .resolveContext()]
+- "src_tenant_resolver_memoryorganizationrepository_getsettings": ".getSettings()" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L64 | neighbors=[MemoryOrganizationRepository, .resolveContext()]
+- "src_tenant_resolver_organizationrepository": "OrganizationRepository" | kind=code-symbol | source=packages/auth/src/tenant-resolver.ts:L3 | neighbors=[tenant-resolver.ts, MemoryOrganizationRepository]
+- "src_tenant_test": "tenant.test.ts" | kind=code-symbol | source=packages/auth/src/tenant.test.ts:L1 | neighbors=[67e5e40 feat(tenant): implement Organiz…, index.ts]
+- "src_user_test": "user.test.ts" | kind=code-symbol | source=packages/auth/src/user.test.ts:L1 | neighbors=[9f7d461 feat(identity): implement Ident…, index.ts]
+- "website_next_config": "next.config.ts" | kind=code-symbol | source=apps/website/next.config.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, nextConfig]
+- "admin_next_config_nextconfig": "nextConfig" | kind=code-symbol | source=apps/admin/next.config.ts:L3 | neighbors=[next.config.ts]
+- "admin_next_env_d": "next-env.d.ts" | kind=code-symbol | source=apps/admin/next-env.d.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…]
+- "app_layout_rootlayout": "RootLayout()" | kind=code-symbol | source=apps/website/app/layout.tsx:L3 | neighbors=[layout.tsx]
+- "app_page_admindashboardpage": "AdminDashboardPage()" | kind=code-symbol | source=apps/admin/app/page.tsx:L1 | neighbors=[page.tsx]
+- "app_page_gueststorefrontpage": "GuestStorefrontPage()" | kind=code-symbol | source=apps/website/app/page.tsx:L1 | neighbors=[page.tsx]
+- "db_drizzle_config": "drizzle.config.ts" | kind=code-symbol | source=packages/db/drizzle.config.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…]
+- "eslint_config": "eslint.config.js" | kind=code-symbol | source=eslint.config.js:L1 | neighbors=[5373706 chore: initialize monorepo work…]
+- "hotels_page_hotelitem": "HotelItem" | kind=code-symbol | source=apps/admin/app/hotels/page.tsx:L5 | neighbors=[page.tsx]
+- "hotels_page_hotelspage": "HotelsPage()" | kind=code-symbol | source=apps/admin/app/hotels/page.tsx:L15 | neighbors=[page.tsx]
+- "login_page_loginpage": "LoginPage()" | kind=code-symbol | source=apps/admin/app/login/page.tsx:L5 | neighbors=[page.tsx]
+- "middlewares_auth_middleware_authcontextvariables": "AuthContextVariables" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L9 | neighbors=[auth.middleware.ts]
 - "middlewares_auth_middleware_memorystore": "memoryStore" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L7 | neighbors=[auth.middleware.ts]
 - "middlewares_auth_middleware_requireauthmiddleware": "requireAuthMiddleware()" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L15 | neighbors=[auth.middleware.ts]
 - "middlewares_hotel_middleware_hotelcontextvariables": "HotelContextVariables" | kind=code-symbol | source=apps/api/src/middlewares/hotel.middleware.ts:L8 | neighbors=[hotel.middleware.ts]
@@ -31,32 +49,14 @@ one-sentence description — no prose, no markdown fences.
 - "routes_auth_getmockhash": "getMockHash()" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L15 | neighbors=[auth.ts]
 - "routes_auth_globalmemorystore": "globalMemoryStore" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L7 | neighbors=[auth.ts]
 - "routes_hotels_hotelrepo": "hotelRepo" | kind=code-symbol | source=apps/api/src/routes/hotels.ts:L4 | neighbors=[hotels.ts]
+- "routes_users_identityservice": "identityService" | kind=code-symbol | source=apps/api/src/routes/users.ts:L5 | neighbors=[users.ts]
+- "routes_users_userrepo": "userRepo" | kind=code-symbol | source=apps/api/src/routes/users.ts:L4 | neighbors=[users.ts]
 - "schema_hotel_hoteladdresses": "hotelAddresses" | kind=code-symbol | source=packages/db/src/schema/hotel.ts:L71 | neighbors=[hotel.ts]
 - "schema_hotel_hotelbusinessdates": "hotelBusinessDates" | kind=code-symbol | source=packages/db/src/schema/hotel.ts:L91 | neighbors=[hotel.ts]
 - "schema_hotel_hotelcontacts": "hotelContacts" | kind=code-symbol | source=packages/db/src/schema/hotel.ts:L54 | neighbors=[hotel.ts]
 - "schema_hotel_hotels": "hotels" | kind=code-symbol | source=packages/db/src/schema/hotel.ts:L5 | neighbors=[hotel.ts]
 - "schema_hotel_hotelsettings": "hotelSettings" | kind=code-symbol | source=packages/db/src/schema/hotel.ts:L36 | neighbors=[hotel.ts]
 - "schema_hotel_hotelsrelations": "hotelsRelations" | kind=code-symbol | source=packages/db/src/schema/hotel.ts:L110 | neighbors=[hotel.ts]
-- "schema_index_organizations": "organizations" | kind=code-symbol | source=packages/db/src/schema/index.ts:L3 | neighbors=[index.ts]
-- "schema_organization_organizationdomains": "organizationDomains" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L39 | neighbors=[organization.ts]
-- "schema_organization_organizationdomainsrelations": "organizationDomainsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L93 | neighbors=[organization.ts]
-- "schema_organization_organizationfeatures": "organizationFeatures" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L57 | neighbors=[organization.ts]
-- "schema_organization_organizationfeaturesrelations": "organizationFeaturesRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L100 | neighbors=[organization.ts]
-- "schema_organization_organizationsettings": "organizationSettings" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L20 | neighbors=[organization.ts]
-- "schema_organization_organizationsettingsrelations": "organizationSettingsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L86 | neighbors=[organization.ts]
-- "schema_organization_organizationsrelations": "organizationsRelations" | kind=code-symbol | source=packages/db/src/schema/organization.ts:L77 | neighbors=[organization.ts]
-- "src_auth_provider_authprovider_constructor": ".constructor()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L5 | neighbors=[AuthProvider]
-- "src_auth_provider_authprovider_validatesession": ".validateSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L20 | neighbors=[AuthProvider]
-- "src_env_envconfig": "EnvConfig" | kind=code-symbol | source=packages/shared/src/env.ts:L10 | neighbors=[env.ts]
-- "src_env_envschema": "EnvSchema" | kind=code-symbol | source=packages/shared/src/env.ts:L3 | neighbors=[env.ts]
-- "src_env_loadenv": "loadEnv()" | kind=code-symbol | source=packages/shared/src/env.ts:L12 | neighbors=[env.ts]
-- "src_hotel_resolver_hotelresolver_constructor": ".constructor()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L88 | neighbors=[HotelResolver]
-- "src_hotel_resolver_hotelresolver_validatecrosshotelaccess": ".validateCrossHotelAccess()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L106 | neighbors=[HotelResolver]
-- "src_hotel_resolver_memoryhotelrepository_constructor": ".constructor()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L15 | neighbors=[MemoryHotelRepository]
-- "src_hotel_resolver_memoryhotelrepository_create": ".create()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L54 | neighbors=[MemoryHotelRepository]
-- "src_hotel_resolver_memoryhotelrepository_getbyorganization": ".getByOrganization()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L50 | neighbors=[MemoryHotelRepository]
-- "src_hotel_resolver_memoryhotelrepository_update": ".update()" | kind=code-symbol | source=packages/auth/src/hotel-resolver.ts:L74 | neighbors=[MemoryHotelRepository]
-- "src_index_apienvelopeschema": "ApiEnvelopeSchema()" | kind=code-symbol | source=packages/shared/src/index.ts:L19 | neighbors=[index.ts]
 
 ## Instructions
 

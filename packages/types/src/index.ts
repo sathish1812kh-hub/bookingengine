@@ -6,6 +6,21 @@ export interface BaseEntity {
   updatedAt: string;
 }
 
+export interface UserHotelAssignment {
+  id: string;
+  userId: string;
+  organizationId: string;
+  hotelId: string;
+  assignmentType: 'Primary' | 'Secondary';
+  isDefault: boolean;
+  active: boolean;
+  assignedBy?: string | null;
+  assignedAt: string;
+  expiresAt?: string | null;
+  createdAt: string;
+  updatedAt: string;
+}
+
 export interface UserProfile {
   id: string;
   userId: string;
@@ -49,6 +64,7 @@ export interface AuthUser {
   organizationId: string;
   name: string;
   currentHotelId?: string;
+  defaultHotelId?: string;
   accessibleHotelIds?: string[];
 }
 
@@ -57,6 +73,8 @@ export interface Session {
   userId: string;
   organizationId: string;
   currentHotelId?: string;
+  defaultHotelId?: string;
+  accessibleHotelIds?: string[];
   expiresAt: string;
   createdAt: string;
 }

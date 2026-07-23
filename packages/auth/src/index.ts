@@ -4,6 +4,7 @@ export * from './auth-provider';
 export * from './tenant-resolver';
 export * from './hotel-resolver';
 export * from './identity-service';
+export * from './hotel-assignment-service';
 
 export interface AuthUserContext {
   userId: string;
