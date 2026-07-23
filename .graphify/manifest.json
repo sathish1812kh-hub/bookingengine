@@ -36,8 +36,8 @@
     "hash": "ebe147c57f18db25052f6c8ee77698f7"
   },
   "C:/bookingengine/packages/auth/src/index.ts": {
-    "mtime": 1784822648824.0593,
-    "hash": "708d7b151d3c87f7b61ef9136f030a8b"
+    "mtime": 1784823860877.174,
+    "hash": "520790dd76c58d9ba780edc4401ae582"
   },
   "C:/bookingengine/packages/db/drizzle.config.ts": {
     "mtime": 1784816343528.7278,
@@ -48,8 +48,8 @@
     "hash": "4e11a97294e4770cb78b8afd56953fd1"
   },
   "C:/bookingengine/packages/db/src/schema/index.ts": {
-    "mtime": 1784816346605.9932,
-    "hash": "ba13ab86d3da9bc2293e7bd27f0b6eb5"
+    "mtime": 1784823848903.743,
+    "hash": "f8a6cd8e52dfc1aca74ee4c9d127d44b"
   },
   "C:/bookingengine/packages/integrations/src/index.ts": {
     "mtime": 1784816383508.6387,
@@ -132,16 +132,16 @@
     "hash": "714f0ac577add2c47d094e9cb558478f"
   },
   "C:/bookingengine/.graphify/GRAPH_REPORT.md": {
-    "mtime": 1784823453774.749,
-    "hash": "92886d0a35d359afafa114dfff654eed"
+    "mtime": 1784823770821.2258,
+    "hash": "953556bff680d2b302346cdfef31997b"
   },
   "C:/bookingengine/.graphify/description-instructions/batch-000.md": {
-    "mtime": 1784823453718.9563,
-    "hash": "7b2c8bb29260f25878f47c36e921aa52"
+    "mtime": 1784823770756.059,
+    "hash": "3c02c84b38eec0b2af251ee0bda6fc98"
   },
   "C:/bookingengine/.graphify/label-instructions/communities.md": {
-    "mtime": 1784823453574.174,
-    "hash": "b546028fcd5c6695ad7d41ed3039ad39"
+    "mtime": 1784823770621.957,
+    "hash": "89ad85edeeb9c92b02b70fbcd2b2602a"
   },
   "C:/bookingengine/.graphify/studio/index.html": {
     "mtime": 1784818331876.7722,
@@ -172,8 +172,8 @@
     "hash": "fe6caaaa987b927b4cee0f1d4fbb3610"
   },
   "C:/bookingengine/packages/types/src/index.ts": {
-    "mtime": 1784822631418.3103,
-    "hash": "447abb4a135bacbe4a8090b6d6d5ab2f"
+    "mtime": 1784823852132.1936,
+    "hash": "dc59ac5b71479d3c438b83e1427406e1"
   },
   "C:/bookingengine/.github/ISSUE_TEMPLATE/bug_report.yml": {
     "mtime": 1784818978227.306,
@@ -196,8 +196,8 @@
     "hash": "a17509978b6c86403f7734a27286f32e"
   },
   "C:/bookingengine/.graphify/description-instructions/batch-001.md": {
-    "mtime": 1784823453719.507,
-    "hash": "f3547a551b3919e277551fe1e066a184"
+    "mtime": 1784823770756.7217,
+    "hash": "dcd39419d1d74379626370b2e6b73e6a"
   },
   "C:/bookingengine/docs/ux/APPROVAL_WORKFLOWS.md": {
     "mtime": 1784819711039.7415,
@@ -282,5 +282,17 @@
   "C:/bookingengine/packages/auth/src/session-store.ts": {
     "mtime": 1784822639825.7864,
     "hash": "29098c16c06497a1eab15a4edfec62bc"
+  },
+  "C:/bookingengine/apps/admin/app/login/page.tsx": {
+    "mtime": 1784823680491.9485,
+    "hash": "d8ee6fc4fb453af95e0032273f8e2dbe"
+  },
+  "C:/bookingengine/apps/api/src/middlewares/auth.middleware.ts": {
+    "mtime": 1784823676710.4568,
+    "hash": "537e3fb5793edaec8bd12e1d15d3329c"
+  },
+  "C:/bookingengine/.graphify/description-instructions/batch-002.md": {
+    "mtime": 1784823770756.7217,
+    "hash": "003ed54dc9252df37dcfcc34fa39c4c6"
   }
 }

@@ -26,20 +26,22 @@ No marketing language.
 Respond ONLY with a JSON object mapping each node id (as a string) to its
 one-sentence description — no prose, no markdown fences.
 
-- "src_index": "index.ts" | kind=code-symbol | source=packages/utils/src/index.ts:L1 | neighbors=[5373706 chore: initialize monorepo work…, b56cdfd feat(scaffolding): Phase 1 mono…, d899e94 feat(auth): implement authentic…, e9fba19 chore(epic-001): workspace foun…, auth.test.ts, auth.ts] | lang=en
+- "src_index": "index.ts" | kind=code-symbol | source=packages/utils/src/index.ts:L1 | neighbors=[5373706 chore: initialize monorepo work…, 93b95cf feat(auth): complete authentica…, b56cdfd feat(scaffolding): Phase 1 mono…, d899e94 feat(auth): implement authentic…, e9fba19 chore(epic-001): workspace foun…, auth.test.ts] | lang=en
 - "branch:repo:github.com/sathish1812kh-hub/bookingengine#main": "main" | kind=Branch | source=git | neighbors=[3efb8ed docs(product): create master Pr…, 5373706 chore: initialize monorepo work…, 57ba611 docs: add architecture review r…, 7699c20 chore(epic-001): initialize wor…, 8264a67 docs(ux): add comprehensive UX …, 889e7c0 Initial commit] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f": "b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and gov…" | kind=Commit | source=git | neighbors=[57ba611 docs: add architecture review r…, next.config.ts, next-env.d.ts, layout.tsx, page.tsx, main] | lang=en
-- "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489": "d899e94 feat(auth): implement authentication and session KV engine (STORY-001)" | kind=Commit | source=git | neighbors=[main, auth.ts, auth-provider.ts, auth.test.ts, crypto.ts, index.ts] | lang=en
+- "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489": "d899e94 feat(auth): implement authentication and session KV engine (STORY-001)" | kind=Commit | source=git | neighbors=[main, 93b95cf feat(auth): complete authentica…, auth.ts, auth-provider.ts, auth.test.ts, crypto.ts] | lang=en
 - "src_session_store": "session-store.ts" | kind=code-symbol | source=packages/auth/src/session-store.ts:L1 | neighbors=[d899e94 feat(auth): implement authentic…, auth-provider.ts, index.ts, KVNamespaceLike, KVSessionStore, MemorySessionStore] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72": "5373706 chore: initialize monorepo workspace" | kind=Commit | source=git | neighbors=[main, 8264a67 docs(ux): add comprehensive UX …, eslint.config.js, env.ts, index.ts, ee66e84 docs(gemini): update GEMINI.md …] | lang=en
 - "src_auth_provider_authprovider": "AuthProvider" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L4 | neighbors=[auth-provider.ts, .constructor(), .createSession(), .revokeSession(), .rotateSession(), .validateSession()] | lang=en
 - "src_crypto": "crypto.ts" | kind=code-symbol | source=packages/auth/src/crypto.ts:L1 | neighbors=[d899e94 feat(auth): implement authentic…, bytesToHex(), hashPassword(), hexToBytes(), verifyPassword(), index.ts] | lang=en
 - "src_session_store_kvsessionstore": "KVSessionStore" | kind=code-symbol | source=packages/auth/src/session-store.ts:L40 | neighbors=[session-store.ts, .constructor(), .delete(), .get(), .set(), SessionStore] | lang=en
+- "commit:repo:github.com/sathish1812kh-hub/bookingengine@93b95cff5b24f8e7ba71d2834fbe73db2191f961": "93b95cf feat(auth): complete authentication foundation with login UI and middle…" | kind=Commit | source=git | neighbors=[main, page.tsx, auth.middleware.ts, index.ts, d899e94 feat(auth): implement authentic…] | lang=en
 - "routes_auth": "auth.ts" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L1 | neighbors=[d899e94 feat(auth): implement authentic…, authRouter, getMockHash(), globalMemoryStore, index.ts] | lang=en
 - "src_auth_provider": "auth-provider.ts" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L1 | neighbors=[d899e94 feat(auth): implement authentic…, AuthProvider, session-store.ts, SessionStore, index.ts] | lang=en
 - "src_env": "env.ts" | kind=code-symbol | source=packages/shared/src/env.ts:L1 | neighbors=[5373706 chore: initialize monorepo work…, EnvConfig, EnvSchema, loadEnv(), index.ts] | lang=en
 - "src_session_store_memorysessionstore": "MemorySessionStore" | kind=code-symbol | source=packages/auth/src/session-store.ts:L9 | neighbors=[session-store.ts, .delete(), .get(), .set(), SessionStore] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35": "e9fba19 chore(epic-001): workspace foundation" | kind=Commit | source=git | neighbors=[7699c20 chore(epic-001): initialize wor…, main, d899e94 feat(auth): implement authentic…, index.ts] | lang=en
+- "middlewares_auth_middleware": "auth.middleware.ts" | kind=code-symbol | source=apps/api/src/middlewares/auth.middleware.ts:L1 | neighbors=[93b95cf feat(auth): complete authentica…, AuthContextVariables, memoryStore, requireAuthMiddleware()] | lang=en
 - "src_crypto_hashpassword": "hashPassword()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L5 | neighbors=[crypto.ts, bytesToHex(), hexToBytes(), verifyPassword()] | lang=en
 - "src_session_store_sessionstore": "SessionStore" | kind=code-symbol | source=packages/auth/src/session-store.ts:L3 | neighbors=[auth-provider.ts, session-store.ts, KVSessionStore, MemorySessionStore] | lang=en
 - "app_page": "page.tsx" | kind=code-symbol | source=apps/website/app/page.tsx:L1 | neighbors=[AdminDashboardPage(), GuestStorefrontPage(), b56cdfd feat(scaffolding): Phase 1 mono…] | lang=en
@@ -51,11 +53,12 @@ one-sentence description — no prose, no markdown fences.
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc": "ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultr…" | kind=Commit | source=git | neighbors=[main, 5373706 chore: initialize monorepo work…, fdb0a76 feat(graphify): fully integrate…] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa": "f4675ed docs(project): create Master Execution Plan & Epic Roadmap (EPIC-001 th…" | kind=Commit | source=git | neighbors=[3efb8ed docs(product): create master Pr…, main, 7699c20 chore(epic-001): initialize wor…] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7": "fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engin…" | kind=Commit | source=git | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, main, ee66e84 docs(gemini): update GEMINI.md …] | lang=en
-- "schema_index": "index.ts" | kind=code-symbol | source=packages/db/src/schema/index.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, organizations, index.ts] | lang=en
+- "schema_index": "index.ts" | kind=code-symbol | source=packages/db/src/schema/index.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, index.ts, organizations] | lang=en
 - "src_auth_provider_authprovider_rotatesession": ".rotateSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L29 | neighbors=[AuthProvider, .createSession(), .revokeSession()] | lang=en
 - "admin_next_config": "next.config.ts" | kind=code-symbol | source=apps/admin/next.config.ts:L1 | neighbors=[nextConfig, b56cdfd feat(scaffolding): Phase 1 mono…] | lang=en
 - "app_layout": "layout.tsx" | kind=code-symbol | source=apps/website/app/layout.tsx:L1 | neighbors=[RootLayout(), b56cdfd feat(scaffolding): Phase 1 mono…] | lang=en
 - "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a": "889e7c0 Initial commit" | kind=Commit | source=git | neighbors=[main, e5bbd3c docs: add comprehensive master …] | lang=en
+- "login_page": "page.tsx" | kind=code-symbol | source=apps/admin/app/login/page.tsx:L1 | neighbors=[93b95cf feat(auth): complete authentica…, LoginPage()] | lang=en
 - "routes_auth_authrouter": "authRouter" | kind=code-symbol | source=apps/api/src/routes/auth.ts:L9 | neighbors=[auth.ts, index.ts] | lang=en
 - "src_auth_provider_authprovider_createsession": ".createSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L7 | neighbors=[AuthProvider, .rotateSession()] | lang=en
 - "src_auth_provider_authprovider_revokesession": ".revokeSession()" | kind=code-symbol | source=packages/auth/src/auth-provider.ts:L25 | neighbors=[AuthProvider, .rotateSession()] | lang=en
@@ -63,9 +66,6 @@ one-sentence description — no prose, no markdown fences.
 - "src_crypto_bytestohex": "bytesToHex()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L35 | neighbors=[crypto.ts, hashPassword()] | lang=en
 - "src_crypto_hextobytes": "hexToBytes()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L41 | neighbors=[crypto.ts, hashPassword()] | lang=en
 - "src_crypto_verifypassword": "verifyPassword()" | kind=code-symbol | source=packages/auth/src/crypto.ts:L30 | neighbors=[crypto.ts, hashPassword()] | lang=en
-- "website_next_config": "next.config.ts" | kind=code-symbol | source=apps/website/next.config.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…, nextConfig] | lang=en
-- "admin_next_config_nextconfig": "nextConfig" | kind=code-symbol | source=apps/admin/next.config.ts:L3 | neighbors=[next.config.ts] | lang=en
-- "admin_next_env_d": "next-env.d.ts" | kind=code-symbol | source=apps/admin/next-env.d.ts:L1 | neighbors=[b56cdfd feat(scaffolding): Phase 1 mono…] | lang=en
 
 ## Instructions
 

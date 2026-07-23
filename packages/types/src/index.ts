@@ -31,3 +31,43 @@ export interface AuthResult {
   session: Session;
   token: string;
 }
+
+export interface Organization {
+  id: string;
+  name: string;
+  slug: string;
+  status: 'active' | 'suspended' | 'archived';
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface OrganizationSettings {
+  id: string;
+  organizationId: string;
+  defaultCurrency: string;
+  timezone: string;
+  dateFormat: string;
+  fiscalYearStartMonth: string;
+}
+
+export interface OrganizationDomain {
+  id: string;
+  organizationId: string;
+  domain: string;
+  isPrimary: boolean;
+  verifiedAt?: string | null;
+}
+
+export interface OrganizationFeature {
+  id: string;
+  organizationId: string;
+  featureKey: string;
+  enabled: boolean;
+  metadata?: Record<string, any> | null;
+}
+
+export interface TenantContext {
+  organization: Organization;
+  settings: OrganizationSettings;
+  features: Record<string, boolean>;
+}
