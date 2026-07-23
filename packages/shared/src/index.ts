@@ -7,6 +7,13 @@ export const HealthCheckResponseSchema = z.object({
   environment: z.string(),
 });
 
+export const LoginRequestSchema = z.object({
+  email: z.string().email('Invalid email address format'),
+  password: z.string().min(8, 'Password must be at least 8 characters long'),
+});
+
+export type LoginRequest = z.infer<typeof LoginRequestSchema>;
+
 export type HealthCheckResponse = z.infer<typeof HealthCheckResponseSchema>;
 
 export const ApiEnvelopeSchema = <T extends z.ZodTypeAny>(dataSchema: T) =>

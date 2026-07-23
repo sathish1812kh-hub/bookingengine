@@ -1,92 +1,94 @@
 # Graph Report - .  (2026-07-23)
 
 ## Corpus Check
-- 66 files · ~52,987 words
+- 71 files · ~54,109 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 53 nodes · 67 edges · 7 communities detected
+- 85 nodes · 116 edges · 8 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
-- Edge kinds: contains: 29 · MODIFIES: 13 · ON_BRANCH: 12 · PARENT_OF: 11 · imports_from: 2
+- Edge kinds: contains: 43 · MODIFIES: 19 · ON_BRANCH: 13 · method: 12 · PARENT_OF: 12 · imports_from: 8 · calls: 5 · implements: 2 · imports: 2
 
 
 ## Input Scope
 - Requested: auto
 - Resolved: committed (source: default-auto)
-- Included files: 66 · Candidates: 139
-- Excluded: 6 untracked · 280046 ignored · 0 sensitive · 0 missing committed
+- Included files: 71 · Candidates: 148
+- Excluded: 3 untracked · 280099 ignored · 0 sensitive · 0 missing committed
 - Recommendation: Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder.
 
 ## Graph Freshness
-- Built from Git commit: `e9fba19`
+- Built from Git commit: `d899e94`
 - Compare this hash to `git rev-parse HEAD` before trusting freshness-sensitive graph output.
 ## God Nodes (most connected - your core abstractions)
-1. `nextConfig` - 1 edges
-2. `Env` - 1 edges
-3. `app` - 1 edges
-4. `nextConfig` - 1 edges
-5. `AuthUserContext` - 1 edges
-6. `organizations` - 1 edges
-7. `StayflexiClientConfig` - 1 edges
-8. `TTLockClientConfig` - 1 edges
-9. `EnvSchema` - 1 edges
-10. `EnvConfig` - 1 edges
+1. `AuthProvider` - 6 edges
+2. `KVSessionStore` - 6 edges
+3. `MemorySessionStore` - 5 edges
+4. `hashPassword()` - 4 edges
+5. `SessionStore` - 4 edges
+6. `authRouter` - 2 edges
+7. `verifyPassword()` - 2 edges
+8. `bytesToHex()` - 2 edges
+9. `hexToBytes()` - 2 edges
+10. `nextConfig` - 1 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `5373706 chore: initialize monorepo workspace` --ON_BRANCH--> `main`  [EXTRACTED]
-  git → git  _Bridges community 2 → community 1_
 - `57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog` --PARENT_OF--> `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`  [EXTRACTED]
-  git → git  _Bridges community 1 → community 3_
-- `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides` --PARENT_OF--> `fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline`  [EXTRACTED]
-  git → git  _Bridges community 3 → community 2_
+  git → git  _Bridges community 2 → community 1_
+- `d899e94 feat(auth): implement authentication and session KV engine (STORY-001)` --ON_BRANCH--> `main`  [EXTRACTED]
+  git → git  _Bridges community 4 → community 2_
 
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.10
-Nodes (14): app, AuthResult, AuthUser, AuthUserContext, BaseEntity, Env, Environment, HealthCheckResponse (+6 more)
+Cohesion: 0.09
+Nodes (16): app, AuthResult, AuthUser, AuthUserContext, BaseEntity, Env, Environment, HealthCheckResponse (+8 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.39
-Nodes (9): main, 3efb8ed docs(product): create master Product Blueprint specification and freeze architecture, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification, e9fba19 chore(epic-001): workspace foundation (+1 more)
+Cohesion: 0.13
+Nodes (4): nextConfig, b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides, organizations, nextConfig
 
 ### Community 2 - "Community 2"
-Cohesion: 0.25
-Nodes (5): 5373706 chore: initialize monorepo workspace, ee66e84 docs(gemini): update GEMINI.md with active MCP inventory, ponytail ultra mandate, and Graphify sync, fdb0a76 feat(graphify): fully integrate official Graphify knowledge graph engine with Git hooks, scripts, GEMINI.md, and CI pipeline, EnvConfig, EnvSchema
+Cohesion: 0.27
+Nodes (12): main, 3efb8ed docs(product): create master Product Blueprint specification and freeze architecture, 5373706 chore: initialize monorepo workspace, 57ba611 docs: add architecture review report, ADR package (12 ADRs), and implementation backlog, 7699c20 chore(epic-001): initialize workspace foundation, 8264a67 docs(ux): add comprehensive UX & Access Control Architecture package (12 specification documents), 889e7c0 Initial commit, e5bbd3c docs: add comprehensive master architecture specification (+4 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.50
-Nodes (1): b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides
+Cohesion: 0.19
+Nodes (4): KVNamespaceLike, KVSessionStore, MemorySessionStore, SessionStore
+
+### Community 4 - "Community 4"
+Cohesion: 0.33
+Nodes (3): d899e94 feat(auth): implement authentication and session KV engine (STORY-001), authRouter, globalMemoryStore
 
 ### Community 5 - "Community 5"
-Cohesion: 1.00
-Nodes (1): nextConfig
+Cohesion: 0.47
+Nodes (1): AuthProvider
+
+### Community 6 - "Community 6"
+Cohesion: 0.70
+Nodes (4): bytesToHex(), hashPassword(), hexToBytes(), verifyPassword()
 
 ### Community 7 - "Community 7"
-Cohesion: 1.00
-Nodes (1): organizations
-
-### Community 8 - "Community 8"
-Cohesion: 1.00
-Nodes (1): nextConfig
+Cohesion: 0.50
+Nodes (2): EnvConfig, EnvSchema
 
 ## Knowledge Gaps
-- **19 isolated node(s):** `nextConfig`, `Env`, `app`, `nextConfig`, `AuthUserContext` (+14 more)
+- **23 isolated node(s):** `nextConfig`, `Env`, `app`, `globalMemoryStore`, `nextConfig` (+18 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 3`** (1 nodes): `b56cdfd feat(scaffolding): Phase 1 monorepo foundation, apps, packages, and governance guides`
+- **Thin community `Community 5`** (1 nodes): `AuthProvider`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 5`** (1 nodes): `nextConfig`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 7`** (1 nodes): `organizations`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 8`** (1 nodes): `nextConfig`
+- **Thin community `Community 7`** (2 nodes): `EnvConfig`, `EnvSchema`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `AuthProvider` connect `Community 5` to `Community 3`?**
+  _High betweenness centrality (0.115) - this node is a cross-community bridge._
 - **What connects `nextConfig`, `Env`, `app` to the rest of the system?**
-  _19 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _23 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

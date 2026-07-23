@@ -5,8 +5,8 @@
     "provenance": {
       "source_owner": "git",
       "source_id": "repo:github.com/sathish1812kh-hub/bookingengine",
-      "observed_at": "2026-07-23T16:17:33.544Z",
-      "source_hash": "e9fba19c69dec0cae4930f416800987985771c35",
+      "observed_at": "2026-07-23T16:22:50.586Z",
+      "source_hash": "d899e94c12cffb29aa05ca16751140f9c26c8489",
       "adapter_version": "graphify-git/1"
     },
     "community_labels": {
@@ -17,12 +17,11 @@
       "4": "Community 4",
       "5": "Community 5",
       "6": "Community 6",
-      "7": "Community 7",
-      "8": "Community 8"
+      "7": "Community 7"
     },
-    "built_from_commit": "e9fba19c69dec0cae4930f416800987985771c35"
+    "built_from_commit": "d899e94c12cffb29aa05ca16751140f9c26c8489"
   },
-  "topology_signature": "n=53;e=67;admin_next_config,admin_next_config_nextconfig,admin_next_env_d,app_layout,app_layout_rootlayout,app_page,app_page_admindashboardpage,app_page_gueststorefrontpage,branch:repo:github.com/sathish1812kh-hub/bookingengine#main,commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f,commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72,commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402,commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd,commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d,commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a,commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f,commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7,commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35,commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc,commit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa,commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7,db_drizzle_config,eslint_config,schema_index,schema_index_organizations,src_env,src_env_envconfig,src_env_envschema,src_env_loadenv,src_index,src_index_apienvelopeschema,src_index_app,src_index_authresult,src_index_authuser,src_index_authusercontext,src_index_baseentity,src_index_cn,src_index_createintegrationstatus,src_index_env,src_index_environment,src_index_formatcurrency,src_index_formatdateiso,src_index_healthcheckresponse,src_index_healthcheckresponseschema,src_index_isauthorized,src_index_logincredentials,src_index_session,src_index_stayflexiclientconfig,src_index_systemstatus,src_index_ttlockclientconfig,website_next_config,website_next_config_nextconfig,website_next_env_d|admin_next_config\tadmin_next_config_nextconfig\tcontains;admin_next_config\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;admin_next_env_d\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_layout\tapp_layout_rootlayout\tcontains;app_layout\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_page\tapp_page_admindashboardpage\tcontains;app_page\tapp_page_gueststorefrontpage\tcontains;app_page\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tON_BRANCH;commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\teslint_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_env\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tdb_drizzle_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tschema_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_env_d\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;schema_index\tschema_index_organizations\tcontains;schema_index\tsrc_index\timports_from;src_env\tsrc_env_envconfig\tcontains;src_env\tsrc_env_envschema\tcontains;src_env\tsrc_env_loadenv\tcontains;src_env\tsrc_index\timports_from;src_index\tsrc_index_apienvelopeschema\tcontains;src_index\tsrc_index_app\tcontains;src_index\tsrc_index_authresult\tcontains;src_index\tsrc_index_authuser\tcontains;src_index\tsrc_index_authusercontext\tcontains;src_index\tsrc_index_baseentity\tcontains;src_index\tsrc_index_cn\tcontains;src_index\tsrc_index_createintegrationstatus\tcontains;src_index\tsrc_index_env\tcontains;src_index\tsrc_index_environment\tcontains;src_index\tsrc_index_formatcurrency\tcontains;src_index\tsrc_index_formatdateiso\tcontains;src_index\tsrc_index_healthcheckresponse\tcontains;src_index\tsrc_index_healthcheckresponseschema\tcontains;src_index\tsrc_index_isauthorized\tcontains;src_index\tsrc_index_logincredentials\tcontains;src_index\tsrc_index_session\tcontains;src_index\tsrc_index_stayflexiclientconfig\tcontains;src_index\tsrc_index_systemstatus\tcontains;src_index\tsrc_index_ttlockclientconfig\tcontains;website_next_config\twebsite_next_config_nextconfig\tcontains",
+  "topology_signature": "n=85;e=116;admin_next_config,admin_next_config_nextconfig,admin_next_env_d,app_layout,app_layout_rootlayout,app_page,app_page_admindashboardpage,app_page_gueststorefrontpage,branch:repo:github.com/sathish1812kh-hub/bookingengine#main,commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f,commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72,commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402,commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd,commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d,commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a,commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f,commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489,commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7,commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35,commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc,commit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa,commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7,db_drizzle_config,eslint_config,routes_auth,routes_auth_authrouter,routes_auth_getmockhash,routes_auth_globalmemorystore,schema_index,schema_index_organizations,src_auth_provider,src_auth_provider_authprovider,src_auth_provider_authprovider_constructor,src_auth_provider_authprovider_createsession,src_auth_provider_authprovider_revokesession,src_auth_provider_authprovider_rotatesession,src_auth_provider_authprovider_validatesession,src_auth_test,src_crypto,src_crypto_bytestohex,src_crypto_hashpassword,src_crypto_hextobytes,src_crypto_verifypassword,src_env,src_env_envconfig,src_env_envschema,src_env_loadenv,src_index,src_index_apienvelopeschema,src_index_app,src_index_authresult,src_index_authuser,src_index_authusercontext,src_index_baseentity,src_index_cn,src_index_createintegrationstatus,src_index_env,src_index_environment,src_index_formatcurrency,src_index_formatdateiso,src_index_healthcheckresponse,src_index_healthcheckresponseschema,src_index_isauthorized,src_index_logincredentials,src_index_loginrequest,src_index_loginrequestschema,src_index_session,src_index_stayflexiclientconfig,src_index_systemstatus,src_index_ttlockclientconfig,src_session_store,src_session_store_kvnamespacelike,src_session_store_kvsessionstore,src_session_store_kvsessionstore_constructor,src_session_store_kvsessionstore_delete,src_session_store_kvsessionstore_get,src_session_store_kvsessionstore_set,src_session_store_memorysessionstore,src_session_store_memorysessionstore_delete,src_session_store_memorysessionstore_get,src_session_store_memorysessionstore_set,src_session_store_sessionstore,website_next_config,website_next_config_nextconfig,website_next_env_d|admin_next_config\tadmin_next_config_nextconfig\tcontains;admin_next_config\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;admin_next_env_d\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_layout\tapp_layout_rootlayout\tcontains;app_layout\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;app_page\tapp_page_admindashboardpage\tcontains;app_page\tapp_page_gueststorefrontpage\tcontains;app_page\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tMODIFIES;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa\tON_BRANCH;branch:repo:github.com/sathish1812kh-hub/bookingengine#main\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tON_BRANCH;commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@3efb8ed7bacdd3f596ff99de282eb4a13c2a339f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\teslint_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_env\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@57ba61152821d212b486b3fd3b3c448b2635e402\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tdb_drizzle_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tschema_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_config\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f\twebsite_next_env_d\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35\tPARENT_OF;commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\troutes_auth\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\tsrc_auth_provider\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\tsrc_auth_test\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\tsrc_crypto\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489\tsrc_session_store\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35\tsrc_index\tMODIFIES;commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc\tcommit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7\tPARENT_OF;routes_auth\troutes_auth_authrouter\tcontains;routes_auth\troutes_auth_getmockhash\tcontains;routes_auth\troutes_auth_globalmemorystore\tcontains;routes_auth\tsrc_index\timports_from;routes_auth_authrouter\tsrc_index\timports;schema_index\tschema_index_organizations\tcontains;schema_index\tsrc_index\timports_from;src_auth_provider\tsrc_auth_provider_authprovider\tcontains;src_auth_provider\tsrc_index\timports_from;src_auth_provider\tsrc_session_store\timports_from;src_auth_provider\tsrc_session_store_sessionstore\timports;src_auth_provider_authprovider\tsrc_auth_provider_authprovider_constructor\tmethod;src_auth_provider_authprovider\tsrc_auth_provider_authprovider_createsession\tmethod;src_auth_provider_authprovider\tsrc_auth_provider_authprovider_revokesession\tmethod;src_auth_provider_authprovider\tsrc_auth_provider_authprovider_rotatesession\tmethod;src_auth_provider_authprovider\tsrc_auth_provider_authprovider_validatesession\tmethod;src_auth_provider_authprovider_createsession\tsrc_auth_provider_authprovider_rotatesession\tcalls;src_auth_provider_authprovider_revokesession\tsrc_auth_provider_authprovider_rotatesession\tcalls;src_auth_test\tsrc_index\timports_from;src_crypto\tsrc_crypto_bytestohex\tcontains;src_crypto\tsrc_crypto_hashpassword\tcontains;src_crypto\tsrc_crypto_hextobytes\tcontains;src_crypto\tsrc_crypto_verifypassword\tcontains;src_crypto\tsrc_index\timports_from;src_crypto_bytestohex\tsrc_crypto_hashpassword\tcalls;src_crypto_hashpassword\tsrc_crypto_hextobytes\tcalls;src_crypto_hashpassword\tsrc_crypto_verifypassword\tcalls;src_env\tsrc_env_envconfig\tcontains;src_env\tsrc_env_envschema\tcontains;src_env\tsrc_env_loadenv\tcontains;src_env\tsrc_index\timports_from;src_index\tsrc_index_apienvelopeschema\tcontains;src_index\tsrc_index_app\tcontains;src_index\tsrc_index_authresult\tcontains;src_index\tsrc_index_authuser\tcontains;src_index\tsrc_index_authusercontext\tcontains;src_index\tsrc_index_baseentity\tcontains;src_index\tsrc_index_cn\tcontains;src_index\tsrc_index_createintegrationstatus\tcontains;src_index\tsrc_index_env\tcontains;src_index\tsrc_index_environment\tcontains;src_index\tsrc_index_formatcurrency\tcontains;src_index\tsrc_index_formatdateiso\tcontains;src_index\tsrc_index_healthcheckresponse\tcontains;src_index\tsrc_index_healthcheckresponseschema\tcontains;src_index\tsrc_index_isauthorized\tcontains;src_index\tsrc_index_logincredentials\tcontains;src_index\tsrc_index_loginrequest\tcontains;src_index\tsrc_index_loginrequestschema\tcontains;src_index\tsrc_index_session\tcontains;src_index\tsrc_index_stayflexiclientconfig\tcontains;src_index\tsrc_index_systemstatus\tcontains;src_index\tsrc_index_ttlockclientconfig\tcontains;src_index\tsrc_session_store\timports_from;src_session_store\tsrc_session_store_kvnamespacelike\tcontains;src_session_store\tsrc_session_store_kvsessionstore\tcontains;src_session_store\tsrc_session_store_memorysessionstore\tcontains;src_session_store\tsrc_session_store_sessionstore\tcontains;src_session_store_kvsessionstore\tsrc_session_store_kvsessionstore_constructor\tmethod;src_session_store_kvsessionstore\tsrc_session_store_kvsessionstore_delete\tmethod;src_session_store_kvsessionstore\tsrc_session_store_kvsessionstore_get\tmethod;src_session_store_kvsessionstore\tsrc_session_store_kvsessionstore_set\tmethod;src_session_store_kvsessionstore\tsrc_session_store_sessionstore\timplements;src_session_store_memorysessionstore\tsrc_session_store_memorysessionstore_delete\tmethod;src_session_store_memorysessionstore\tsrc_session_store_memorysessionstore_get\tmethod;src_session_store_memorysessionstore\tsrc_session_store_memorysessionstore_set\tmethod;src_session_store_memorysessionstore\tsrc_session_store_sessionstore\timplements;website_next_config\twebsite_next_config_nextconfig\tcontains",
   "nodes": [
     {
       "id": "app_layout",
@@ -30,8 +29,8 @@
       "file_type": "code",
       "source_file": "apps/website/app/layout.tsx",
       "source_location": "L1",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_layout_rootlayout",
@@ -39,8 +38,8 @@
       "file_type": "code",
       "source_file": "apps/website/app/layout.tsx",
       "source_location": "L3",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_page",
@@ -48,8 +47,8 @@
       "file_type": "code",
       "source_file": "apps/website/app/page.tsx",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "app_page_admindashboardpage",
@@ -57,8 +56,8 @@
       "file_type": "code",
       "source_file": "apps/admin/app/page.tsx",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "admin_next_env_d",
@@ -66,8 +65,8 @@
       "file_type": "code",
       "source_file": "apps/admin/next-env.d.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "admin_next_config",
@@ -75,8 +74,8 @@
       "file_type": "code",
       "source_file": "apps/admin/next.config.ts",
       "source_location": "L1",
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "admin_next_config_nextconfig",
@@ -84,8 +83,8 @@
       "file_type": "code",
       "source_file": "apps/admin/next.config.ts",
       "source_location": "L3",
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "src_index",
@@ -115,13 +114,49 @@
       "community_name": "Community 0"
     },
     {
+      "id": "routes_auth",
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "source_location": "L1",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
+      "id": "routes_auth_globalmemorystore",
+      "label": "globalMemoryStore",
+      "file_type": "code",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "source_location": "L7",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
+      "id": "routes_auth_authrouter",
+      "label": "authRouter",
+      "file_type": "code",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "source_location": "L9",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
+      "id": "routes_auth_getmockhash",
+      "label": "getMockHash()",
+      "file_type": "code",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "source_location": "L15",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
       "id": "app_page_gueststorefrontpage",
       "label": "GuestStorefrontPage()",
       "file_type": "code",
       "source_file": "apps/website/app/page.tsx",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "website_next_env_d",
@@ -129,8 +164,8 @@
       "file_type": "code",
       "source_file": "apps/website/next-env.d.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "website_next_config",
@@ -138,8 +173,8 @@
       "file_type": "code",
       "source_file": "apps/website/next.config.ts",
       "source_location": "L1",
-      "community": 8,
-      "community_name": "Community 8"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "website_next_config_nextconfig",
@@ -147,8 +182,8 @@
       "file_type": "code",
       "source_file": "apps/website/next.config.ts",
       "source_location": "L3",
-      "community": 8,
-      "community_name": "Community 8"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "eslint_config",
@@ -158,6 +193,123 @@
       "source_location": "L1",
       "community": 2,
       "community_name": "Community 2"
+    },
+    {
+      "id": "src_auth_provider",
+      "label": "auth-provider.ts",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L1",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_auth_provider_authprovider",
+      "label": "AuthProvider",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L4",
+      "community": 5,
+      "community_name": "Community 5"
+    },
+    {
+      "id": "src_auth_provider_authprovider_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L5",
+      "community": 5,
+      "community_name": "Community 5"
+    },
+    {
+      "id": "src_auth_provider_authprovider_createsession",
+      "label": ".createSession()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L7",
+      "community": 5,
+      "community_name": "Community 5"
+    },
+    {
+      "id": "src_auth_provider_authprovider_validatesession",
+      "label": ".validateSession()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L20",
+      "community": 5,
+      "community_name": "Community 5"
+    },
+    {
+      "id": "src_auth_provider_authprovider_revokesession",
+      "label": ".revokeSession()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L25",
+      "community": 5,
+      "community_name": "Community 5"
+    },
+    {
+      "id": "src_auth_provider_authprovider_rotatesession",
+      "label": ".rotateSession()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L29",
+      "community": 5,
+      "community_name": "Community 5"
+    },
+    {
+      "id": "src_auth_test",
+      "label": "auth.test.ts",
+      "file_type": "code",
+      "source_file": "packages/auth/src/auth.test.ts",
+      "source_location": "L1",
+      "community": 4,
+      "community_name": "Community 4"
+    },
+    {
+      "id": "src_crypto",
+      "label": "crypto.ts",
+      "file_type": "code",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L1",
+      "community": 6,
+      "community_name": "Community 6"
+    },
+    {
+      "id": "src_crypto_hashpassword",
+      "label": "hashPassword()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L5",
+      "community": 6,
+      "community_name": "Community 6"
+    },
+    {
+      "id": "src_crypto_verifypassword",
+      "label": "verifyPassword()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L30",
+      "community": 6,
+      "community_name": "Community 6"
+    },
+    {
+      "id": "src_crypto_bytestohex",
+      "label": "bytesToHex()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L35",
+      "community": 6,
+      "community_name": "Community 6"
+    },
+    {
+      "id": "src_crypto_hextobytes",
+      "label": "hexToBytes()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L41",
+      "community": 6,
+      "community_name": "Community 6"
     },
     {
       "id": "src_index_authusercontext",
@@ -178,13 +330,121 @@
       "community_name": "Community 0"
     },
     {
+      "id": "src_session_store",
+      "label": "session-store.ts",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L1",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_sessionstore",
+      "label": "SessionStore",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L3",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_memorysessionstore",
+      "label": "MemorySessionStore",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L9",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_memorysessionstore_get",
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L12",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_memorysessionstore_set",
+      "label": ".set()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L22",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_memorysessionstore_delete",
+      "label": ".delete()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L29",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_kvnamespacelike",
+      "label": "KVNamespaceLike",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L34",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_kvsessionstore",
+      "label": "KVSessionStore",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L40",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_kvsessionstore_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L41",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_kvsessionstore_get",
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L43",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_kvsessionstore_set",
+      "label": ".set()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L53",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
+      "id": "src_session_store_kvsessionstore_delete",
+      "label": ".delete()",
+      "file_type": "code",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L59",
+      "community": 3,
+      "community_name": "Community 3"
+    },
+    {
       "id": "db_drizzle_config",
       "label": "drizzle.config.ts",
       "file_type": "code",
       "source_file": "packages/db/drizzle.config.ts",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "schema_index",
@@ -192,8 +452,8 @@
       "file_type": "code",
       "source_file": "packages/db/src/schema/index.ts",
       "source_location": "L1",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "schema_index_organizations",
@@ -201,8 +461,8 @@
       "file_type": "code",
       "source_file": "packages/db/src/schema/index.ts",
       "source_location": "L3",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 1,
+      "community_name": "Community 1"
     },
     {
       "id": "src_index_stayflexiclientconfig",
@@ -237,8 +497,8 @@
       "file_type": "code",
       "source_file": "packages/shared/src/env.ts",
       "source_location": "L1",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "src_env_envschema",
@@ -246,8 +506,8 @@
       "file_type": "code",
       "source_file": "packages/shared/src/env.ts",
       "source_location": "L3",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "src_env_envconfig",
@@ -255,8 +515,8 @@
       "file_type": "code",
       "source_file": "packages/shared/src/env.ts",
       "source_location": "L10",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "src_env_loadenv",
@@ -264,8 +524,8 @@
       "file_type": "code",
       "source_file": "packages/shared/src/env.ts",
       "source_location": "L12",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 7,
+      "community_name": "Community 7"
     },
     {
       "id": "src_index_healthcheckresponseschema",
@@ -277,11 +537,29 @@
       "community_name": "Community 0"
     },
     {
+      "id": "src_index_loginrequestschema",
+      "label": "LoginRequestSchema",
+      "file_type": "code",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L10",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
+      "id": "src_index_loginrequest",
+      "label": "LoginRequest",
+      "file_type": "code",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L15",
+      "community": 0,
+      "community_name": "Community 0"
+    },
+    {
       "id": "src_index_healthcheckresponse",
       "label": "HealthCheckResponse",
       "file_type": "code",
       "source_file": "packages/shared/src/index.ts",
-      "source_location": "L10",
+      "source_location": "L17",
       "community": 0,
       "community_name": "Community 0"
     },
@@ -290,7 +568,7 @@
       "label": "ApiEnvelopeSchema()",
       "file_type": "code",
       "source_file": "packages/shared/src/index.ts",
-      "source_location": "L12",
+      "source_location": "L19",
       "community": 0,
       "community_name": "Community 0"
     },
@@ -299,7 +577,7 @@
       "label": "SystemStatus",
       "file_type": "code",
       "source_file": "packages/shared/src/index.ts",
-      "source_location": "L28",
+      "source_location": "L35",
       "community": 0,
       "community_name": "Community 0"
     },
@@ -399,8 +677,8 @@
       "parents": [
         "8264a679ed9fe114ae4b9e377ff6a3019212c08d"
       ],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@5373706b77f1fc569c764c66538010eaaf335e72",
@@ -435,8 +713,8 @@
       "parents": [
         "e5bbd3c896fd9a430099e5d74ae1423fa726a7d7"
       ],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@7699c207af4889fe33bc77f912dfc6ed8e20debd",
@@ -453,8 +731,8 @@
       "parents": [
         "f4675eddf9ce7473b4fa73f2a5ff6f660e1308aa"
       ],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@8264a679ed9fe114ae4b9e377ff6a3019212c08d",
@@ -471,8 +749,8 @@
       "parents": [
         "5373706b77f1fc569c764c66538010eaaf335e72"
       ],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a",
@@ -487,8 +765,8 @@
       "message_summary": "Initial commit",
       "message_length": 14,
       "parents": [],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@b56cdfd3d3d08881331f18a6eac3950292e7e74f",
@@ -505,8 +783,26 @@
       "parents": [
         "57ba61152821d212b486b3fd3b3c448b2635e402"
       ],
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 1,
+      "community_name": "Community 1"
+    },
+    {
+      "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "label": "d899e94 feat(auth): implement authentication and session KV engine (STORY-001)",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
+      "sha": "d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "author": "sathish <sathish1812kh@gmail.com>",
+      "authoredAt": "2026-07-23T21:47:34+05:30",
+      "message_summary": "feat(auth): implement authentication and session KV engine (STORY-001)",
+      "message_length": 70,
+      "parents": [
+        "e9fba19c69dec0cae4930f416800987985771c35"
+      ],
+      "community": 4,
+      "community_name": "Community 4"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
@@ -523,8 +819,8 @@
       "parents": [
         "889e7c0536b367eca8b7a592bdf53bcb5aaa3d4a"
       ],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35",
@@ -541,8 +837,8 @@
       "parents": [
         "7699c207af4889fe33bc77f912dfc6ed8e20debd"
       ],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@ee66e84884a974a9caff164350acca210a30c9bc",
@@ -577,8 +873,8 @@
       "parents": [
         "3efb8ed7bacdd3f596ff99de282eb4a13c2a339f"
       ],
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 2,
+      "community_name": "Community 2"
     },
     {
       "id": "commit:repo:github.com/sathish1812kh-hub/bookingengine@fdb0a7669fdf70b15f01c91af3ccafe203ef67f7",
@@ -606,9 +902,9 @@
       "node_type": "Branch",
       "repo": "repo:github.com/sathish1812kh-hub/bookingengine",
       "branch_name": "main",
-      "head_sha": "e9fba19c69dec0cae4930f416800987985771c35",
-      "community": 1,
-      "community_name": "Community 1"
+      "head_sha": "d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "community": 2,
+      "community_name": "Community 2"
     }
   ],
   "links": [
@@ -957,6 +1253,94 @@
       "confidence_score": 1
     },
     {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "target": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "target": "routes_auth",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "added": 131,
+      "deleted": 0,
+      "file_path": "apps/api/src/routes/auth.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "_tgt": "routes_auth",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "target": "src_auth_provider",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "added": 33,
+      "deleted": 0,
+      "file_path": "packages/auth/src/auth-provider.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "_tgt": "src_auth_provider",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "target": "src_auth_test",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth.test.ts",
+      "added": 59,
+      "deleted": 0,
+      "file_path": "packages/auth/src/auth.test.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "_tgt": "src_auth_test",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "target": "src_crypto",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "added": 47,
+      "deleted": 0,
+      "file_path": "packages/auth/src/crypto.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "_tgt": "src_crypto",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "target": "src_index",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/types/src/index.ts",
+      "added": 26,
+      "deleted": 0,
+      "file_path": "packages/types/src/index.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "_tgt": "src_index",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "target": "src_session_store",
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "added": 62,
+      "deleted": 0,
+      "file_path": "packages/auth/src/session-store.ts",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "_tgt": "src_session_store",
+      "confidence_score": 1
+    },
+    {
       "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e5bbd3c896fd9a430099e5d74ae1423fa726a7d7",
       "target": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
       "relation": "ON_BRANCH",
@@ -984,6 +1368,16 @@
       "source_file": "git",
       "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35",
       "_tgt": "branch:repo:github.com/sathish1812kh-hub/bookingengine#main",
+      "confidence_score": 1
+    },
+    {
+      "source": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35",
+      "target": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/sathish1812kh-hub/bookingengine@e9fba19c69dec0cae4930f416800987985771c35",
+      "_tgt": "commit:repo:github.com/sathish1812kh-hub/bookingengine@d899e94c12cffb29aa05ca16751140f9c26c8489",
       "confidence_score": 1
     },
     {
@@ -1060,6 +1454,42 @@
       "confidence_score": 1
     },
     {
+      "source": "routes_auth",
+      "target": "routes_auth_authrouter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "routes_auth",
+      "_tgt": "routes_auth_authrouter",
+      "confidence_score": 1
+    },
+    {
+      "source": "routes_auth",
+      "target": "routes_auth_getmockhash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "source_location": "L15",
+      "weight": 1,
+      "_src": "routes_auth",
+      "_tgt": "routes_auth_getmockhash",
+      "confidence_score": 1
+    },
+    {
+      "source": "routes_auth",
+      "target": "routes_auth_globalmemorystore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/routes/auth.ts",
+      "source_location": "L7",
+      "weight": 1,
+      "_src": "routes_auth",
+      "_tgt": "routes_auth_globalmemorystore",
+      "confidence_score": 1
+    },
+    {
       "source": "schema_index",
       "target": "schema_index_organizations",
       "relation": "contains",
@@ -1069,6 +1499,222 @@
       "weight": 1,
       "_src": "schema_index",
       "_tgt": "schema_index_organizations",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider",
+      "target": "src_auth_provider_authprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "src_auth_provider",
+      "_tgt": "src_auth_provider_authprovider",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider",
+      "target": "src_session_store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "src_auth_provider",
+      "_tgt": "src_session_store",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider",
+      "target": "src_session_store_sessionstore",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "src_auth_provider",
+      "_tgt": "src_session_store_sessionstore",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider_authprovider",
+      "target": "src_auth_provider_authprovider_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "src_auth_provider_authprovider",
+      "_tgt": "src_auth_provider_authprovider_constructor",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider_authprovider",
+      "target": "src_auth_provider_authprovider_createsession",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L7",
+      "weight": 1,
+      "_src": "src_auth_provider_authprovider",
+      "_tgt": "src_auth_provider_authprovider_createsession",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider_authprovider",
+      "target": "src_auth_provider_authprovider_revokesession",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L25",
+      "weight": 1,
+      "_src": "src_auth_provider_authprovider",
+      "_tgt": "src_auth_provider_authprovider_revokesession",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider_authprovider",
+      "target": "src_auth_provider_authprovider_rotatesession",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L29",
+      "weight": 1,
+      "_src": "src_auth_provider_authprovider",
+      "_tgt": "src_auth_provider_authprovider_rotatesession",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider_authprovider",
+      "target": "src_auth_provider_authprovider_validatesession",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L20",
+      "weight": 1,
+      "_src": "src_auth_provider_authprovider",
+      "_tgt": "src_auth_provider_authprovider_validatesession",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider_authprovider_rotatesession",
+      "target": "src_auth_provider_authprovider_createsession",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L31",
+      "weight": 1,
+      "_src": "src_auth_provider_authprovider_rotatesession",
+      "_tgt": "src_auth_provider_authprovider_createsession",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_provider_authprovider_rotatesession",
+      "target": "src_auth_provider_authprovider_revokesession",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth-provider.ts",
+      "source_location": "L30",
+      "weight": 1,
+      "_src": "src_auth_provider_authprovider_rotatesession",
+      "_tgt": "src_auth_provider_authprovider_revokesession",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_auth_test",
+      "target": "src_index",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/auth.test.ts",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "src_auth_test",
+      "_tgt": "src_index",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_crypto",
+      "target": "src_crypto_bytestohex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L35",
+      "weight": 1,
+      "_src": "src_crypto",
+      "_tgt": "src_crypto_bytestohex",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_crypto",
+      "target": "src_crypto_hashpassword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "src_crypto",
+      "_tgt": "src_crypto_hashpassword",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_crypto",
+      "target": "src_crypto_hextobytes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L41",
+      "weight": 1,
+      "_src": "src_crypto",
+      "_tgt": "src_crypto_hextobytes",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_crypto",
+      "target": "src_crypto_verifypassword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L30",
+      "weight": 1,
+      "_src": "src_crypto",
+      "_tgt": "src_crypto_verifypassword",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_crypto_hashpassword",
+      "target": "src_crypto_bytestohex",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L25",
+      "weight": 1,
+      "_src": "src_crypto_hashpassword",
+      "_tgt": "src_crypto_bytestohex",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_crypto_hashpassword",
+      "target": "src_crypto_hextobytes",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L7",
+      "weight": 1,
+      "_src": "src_crypto_hashpassword",
+      "_tgt": "src_crypto_hextobytes",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_crypto_verifypassword",
+      "target": "src_crypto_hashpassword",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/crypto.ts",
+      "source_location": "L31",
+      "weight": 1,
+      "_src": "src_crypto_verifypassword",
+      "_tgt": "src_crypto_hashpassword",
       "confidence_score": 1
     },
     {
@@ -1109,6 +1755,30 @@
     },
     {
       "source": "src_index",
+      "target": "routes_auth",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/index.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "routes_auth",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "routes_auth_authrouter",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "apps/api/src/index.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "routes_auth_authrouter",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
       "target": "schema_index",
       "relation": "imports_from",
       "confidence": "EXTRACTED",
@@ -1118,6 +1788,32 @@
       "context": "re-export",
       "_src": "src_index",
       "_tgt": "schema_index",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_auth_provider",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/index.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "context": "re-export",
+      "_src": "src_index",
+      "_tgt": "src_auth_provider",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_crypto",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/index.ts",
+      "source_location": "L1",
+      "weight": 1,
+      "context": "re-export",
+      "_src": "src_index",
+      "_tgt": "src_crypto",
       "confidence_score": 1
     },
     {
@@ -1327,6 +2023,30 @@
     },
     {
       "source": "src_index",
+      "target": "src_index_loginrequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L15",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_loginrequest",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_index_loginrequestschema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/shared/src/index.ts",
+      "source_location": "L10",
+      "weight": 1,
+      "_src": "src_index",
+      "_tgt": "src_index_loginrequestschema",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
       "target": "src_index_session",
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1371,6 +2091,175 @@
       "weight": 1,
       "_src": "src_index",
       "_tgt": "src_index_ttlockclientconfig",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_index",
+      "target": "src_session_store",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/index.ts",
+      "source_location": "L2",
+      "weight": 1,
+      "context": "re-export",
+      "_src": "src_index",
+      "_tgt": "src_session_store",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store",
+      "target": "src_session_store_kvnamespacelike",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L34",
+      "weight": 1,
+      "_src": "src_session_store",
+      "_tgt": "src_session_store_kvnamespacelike",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store",
+      "target": "src_session_store_kvsessionstore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L40",
+      "weight": 1,
+      "_src": "src_session_store",
+      "_tgt": "src_session_store_kvsessionstore",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store",
+      "target": "src_session_store_memorysessionstore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "src_session_store",
+      "_tgt": "src_session_store_memorysessionstore",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store",
+      "target": "src_session_store_sessionstore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_session_store",
+      "_tgt": "src_session_store_sessionstore",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_kvsessionstore",
+      "target": "src_session_store_kvsessionstore_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L41",
+      "weight": 1,
+      "_src": "src_session_store_kvsessionstore",
+      "_tgt": "src_session_store_kvsessionstore_constructor",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_kvsessionstore",
+      "target": "src_session_store_kvsessionstore_delete",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L59",
+      "weight": 1,
+      "_src": "src_session_store_kvsessionstore",
+      "_tgt": "src_session_store_kvsessionstore_delete",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_kvsessionstore",
+      "target": "src_session_store_kvsessionstore_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L43",
+      "weight": 1,
+      "_src": "src_session_store_kvsessionstore",
+      "_tgt": "src_session_store_kvsessionstore_get",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_kvsessionstore",
+      "target": "src_session_store_kvsessionstore_set",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L53",
+      "weight": 1,
+      "_src": "src_session_store_kvsessionstore",
+      "_tgt": "src_session_store_kvsessionstore_set",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_kvsessionstore",
+      "target": "src_session_store_sessionstore",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L40",
+      "weight": 1,
+      "_src": "src_session_store_kvsessionstore",
+      "_tgt": "src_session_store_sessionstore",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_memorysessionstore",
+      "target": "src_session_store_memorysessionstore_delete",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L29",
+      "weight": 1,
+      "_src": "src_session_store_memorysessionstore",
+      "_tgt": "src_session_store_memorysessionstore_delete",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_memorysessionstore",
+      "target": "src_session_store_memorysessionstore_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L12",
+      "weight": 1,
+      "_src": "src_session_store_memorysessionstore",
+      "_tgt": "src_session_store_memorysessionstore_get",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_memorysessionstore",
+      "target": "src_session_store_memorysessionstore_set",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L22",
+      "weight": 1,
+      "_src": "src_session_store_memorysessionstore",
+      "_tgt": "src_session_store_memorysessionstore_set",
+      "confidence_score": 1
+    },
+    {
+      "source": "src_session_store_memorysessionstore",
+      "target": "src_session_store_sessionstore",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/auth/src/session-store.ts",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "src_session_store_memorysessionstore",
+      "_tgt": "src_session_store_sessionstore",
       "confidence_score": 1
     },
     {

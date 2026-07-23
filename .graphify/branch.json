@@ -3,14 +3,14 @@
   "branchName": "main",
   "worktreePath": "C:\\bookingengine",
   "upstream": "origin/main",
-  "mergeBase": "e9fba19c69dec0cae4930f416800987985771c35",
+  "mergeBase": "d899e94c12cffb29aa05ca16751140f9c26c8489",
   "firstSeenHead": "b56cdfd3d3d08881331f18a6eac3950292e7e74f",
-  "lastSeenHead": "e9fba19c69dec0cae4930f416800987985771c35",
-  "lastAnalyzedHead": "e9fba19c69dec0cae4930f416800987985771c35",
+  "lastSeenHead": "d899e94c12cffb29aa05ca16751140f9c26c8489",
+  "lastAnalyzedHead": "d899e94c12cffb29aa05ca16751140f9c26c8489",
   "stale": false,
   "staleReason": null,
   "staleSince": null,
   "lifecycleEvent": null,
   "createdAt": "2026-07-23T14:53:44.825Z",
-  "updatedAt": "2026-07-23T16:17:33.976Z"
+  "updatedAt": "2026-07-23T16:22:51.017Z"
 }
