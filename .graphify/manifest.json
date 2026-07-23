@@ -68,8 +68,8 @@
     "hash": "33f013ce03c8c66a6002ef941a433b81"
   },
   "C:/bookingengine/.github/workflows/ci.yml": {
-    "mtime": 1784816441710.847,
-    "hash": "e0c3964727462cdfc7a13227bde1ae03"
+    "mtime": 1784818540187.168,
+    "hash": "4acdab8c76ab76ce303cafc0f17ef8d8"
   },
   "C:/bookingengine/CONTRIBUTING.md": {
     "mtime": 1784816316974.5583,
@@ -110,5 +110,57 @@
   "C:/bookingengine/workers/README.md": {
     "mtime": 1784816436146.0364,
     "hash": "304df51c913d8a0b5a49ee11e0577cca"
+  },
+  "C:/bookingengine/.graphify/studio/assets/index-CU5cXRnL.js": {
+    "mtime": 1784818332203.26,
+    "hash": "4a1731652aadc733229941e111688870"
+  },
+  "C:/bookingengine/.husky/post-checkout": {
+    "mtime": 1784818532579.5117,
+    "hash": "7515b878a97c5399886b6437f8869672"
+  },
+  "C:/bookingengine/.husky/post-commit": {
+    "mtime": 1784818532577.9321,
+    "hash": "f98c425900dfd0c683fa44170041cd1a"
+  },
+  "C:/bookingengine/.husky/post-merge": {
+    "mtime": 1784818532579.5117,
+    "hash": "9c70f1505e1095343bd1e91222360493"
+  },
+  "C:/bookingengine/.husky/post-rewrite": {
+    "mtime": 1784818532581.171,
+    "hash": "714f0ac577add2c47d094e9cb558478f"
+  },
+  "C:/bookingengine/.graphify/GRAPH_REPORT.md": {
+    "mtime": 1784818424481.7668,
+    "hash": "de396f22e0c540535ca1ad5ee98ac2c8"
+  },
+  "C:/bookingengine/.graphify/description-instructions/batch-000.md": {
+    "mtime": 1784818424398.818,
+    "hash": "cfeb1bdf3ee19682d3c0b84bf6299394"
+  },
+  "C:/bookingengine/.graphify/label-instructions/communities.md": {
+    "mtime": 1784818424283.82,
+    "hash": "4922bf09ede22c8be8f870c40cb8545f"
+  },
+  "C:/bookingengine/.graphify/studio/index.html": {
+    "mtime": 1784818331876.7722,
+    "hash": "e0de6f474f81b1f12f740e284df72b38"
+  },
+  "C:/bookingengine/.graphify/studio/studio-template.html": {
+    "mtime": 1784818332174.6123,
+    "hash": "7c18608bfef6b2223ce0af585ad18e47"
+  },
+  "C:/bookingengine/.graphify/studio/studio.html": {
+    "mtime": 1784818462144.251,
+    "hash": "1590347c940edc41316b785497568bb7"
+  },
+  "C:/bookingengine/GEMINI.md": {
+    "mtime": 1784818786823.867,
+    "hash": "228c1758aa8cfd5850aefe1aa620fea8"
+  },
+  "C:/bookingengine/docs/GRAPHIFY_INTEGRATION.md": {
+    "mtime": 1784818545997.563,
+    "hash": "e92f7812d0fe19dd128d78c2facfcd29"
   }
 }
